@@ -1,6 +1,6 @@
 # Automated-Accessibility-Example-Lib
 <p align="center">
-<img src="https://cdn-icons-png.flaticon.com/512/1512/1512642.pnghttps://t4.ftcdn.net/jpg/03/09/54/77/360_F_309547763_hfMHTCBPN5pp1PGZS0uveXdZM7vXD6tl.jpg" height="70px" width="100px" alt="" />
+<img src="https://cdn-icons-png.flaticon.com/512/1512/1512642.png" height="70px" width="100px" alt="" />
 </p>
 
 This repo houses a library of accessibility automation examples that use multiple different testing frameworks.
