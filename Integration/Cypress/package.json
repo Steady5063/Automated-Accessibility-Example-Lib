@@ -1,0 +1,17 @@
+{
+  "name": "cypress-accessibility-example",
+  "version": "1.0.0",
+  "description": "Example cypress integration testing with accessibility",
+  "main": "cypress.config.js",
+  "scripts": {
+    "test": "cypress open"
+  },
+  "author": "Mark Steadman",
+  "license": "ISC",
+  "dependencies": {
+    "chromium": "^3.0.3",
+    "cypress": "^12.6.0",
+    "cypress-axe": "^1.3.0",
+    "cypress-plugin-tab": "^1.0.5"
+  }
+}

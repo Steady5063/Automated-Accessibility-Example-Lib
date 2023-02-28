@@ -1,0 +1,119 @@
+<html>
+<head>
+	<style>
+		button:focus, button:focus-within{
+			outline: 3px solid red
+		}
+		h2:focus{
+			outline: 3px solid red
+		}
+		.hidden{
+			display:none;
+		}
+		#modalContainer{
+			width: 500px;
+  margin-left: 20px;
+  padding-left: 25px;
+  border-style: solid;
+  background: white;
+		}
+	</style>
+</head>
+<body>
+<h1>A11y Regression Test Page</h1>
+<br/><br/>
+	<h2>Aria-expanded/Collapsed Example</h2>
+	<button id="toggle" aria-expanded="false">
+		  <span id="icon" class="toggle-plus" aria-hidden="true">+</span>
+		<span class="details">Details To Expand</span>
+	  </button>
+	
+	<div class="container hidden">
+	  <p> Check out this amazing offer with super dope details!</p>
+	  <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean sed mi rutrum, volutpat metus non, rutrum lorem. Nunc ut ornare metus. In gravida non quam a facilisis. Ut auctor orci a gravida semper. Donec eros ipsum, placerat lobortis tincidunt eget, fermentum feugiat sapien. Proin rhoncus commodo ex quis consequat.</p>
+	</div>
+
+
+
+	<br/><br/>
+	<h2>Focus Indicator Test</h2>
+	<button id="focusButton1">Menu</button><button id="focusButton2">My Account</button><button id="focusButton3">Sign Out</button>
+
+     <br/><br/>
+	<h2>Modal Focus Test</h2>
+	<button id="modalButton" onclick="toggleModal()">Open Modal</button>
+	<div id="modalContainer" class="hidden">
+		  <div
+			 id="modal"
+			 role="dialog"
+			 aria-modal="true"
+			 class="modal"
+			 >
+			<h2 id="modalTitle" tabindex="-1">Free Gift Form</h2>
+			<button id="modalClose" onClick="closeModal()">Close Modal</button>
+		  </div>
+		 </div>
+
+
+	<br/><br/>
+	<h2>Disabled Button Test</h2>
+<div class="container">
+	<div class="row">
+		<div class="col-sm form-col">
+			<form action="#" method="post">
+				<label for="edit-comment" name="edit-comment">Text Area</label><br/>
+				<textarea id="edit-comment" name="comment" class="nopaste form-textarea empty disInput" placeholder="Join the conversation. Add a comment or even better, a critique. Let's get better together!" onfocus="this.value=''" onkeyup="charactersTyped(this.value)" ondrop="return false;">Join the conversation. Add a comment or even better, a critique. Let's get better together!
+				</textarea><br />
+				<input id="submit-form" type="submit" value="Post Comment" class="disButton form-submit btn btn-primary" disabled>
+			</form>
+		</div>
+		</div>
+</div>
+
+
+<script type="text/javascript">
+
+  
+</script>
+<script type="text/javascript">
+
+    function toggleModal(){
+		document.querySelector("#modalContainer").classList.remove("hidden");
+		document.querySelector("#modalTitle").focus();
+	}
+
+	function closeModal(){
+		document.querySelector("#modalContainer").classList.add("hidden");
+		document.querySelector("#modalButton").focus();
+	}
+  
+	function charactersTyped(str) {
+		var noOfChars = str.length;
+		if(noOfChars > 0) {
+			document.getElementById("submit-form").disabled = false;
+		} else {
+			document.getElementById("submit-form").disabled = true;
+		}
+	};
+	</script>
+<script>
+let btn = document.querySelector("#toggle");
+let details = document.querySelector(".container");
+
+btn.addEventListener("click", function (event) {
+  let target = event.currentTarget;
+  let icon = event.currentTarget.querySelector("#icon");
+  
+  if (target.getAttribute("aria-expanded") === "true") {
+    target.setAttribute("aria-expanded", "false");
+    details.classList.toggle("hidden");
+    icon.innerHTML = "+";
+  } else {
+    target.setAttribute("aria-expanded", "true");
+    details.classList.toggle("hidden");
+    icon.innerHTML = "-";
+  } 
+});	 
+</script>
+</body>
+</html>
