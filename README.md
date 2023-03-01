@@ -16,13 +16,13 @@ The examples are currently categorized by different levels of test.
 
 ```
 
-    ├── Integration             # Testing library example that test at an integration level
-    │   ├── Cypress             # Load and stress tests
-    │   ├── PlayWright          # End-to-end, integration tests (alternatively `e2e`)
-    │   └── Puppeteer           # Unit tests
+    ├── Integration            
+    │   ├── Cypress            
+    │   ├── PlayWright         
+    │   └── Puppeteer          
     └── Component
-    |   ├── React Testing Lib      # Load and stress tests
-    |   ├── Vue Test Utils         # End-to-end, integration tests (alternatively `e2e`)
-    |   └── Angular Karma          # Unit tests
+    |   ├── React Testing Lib      
+    |   ├── Vue Test Utils         
+    |   └── Angular Karma          
 
 ```
