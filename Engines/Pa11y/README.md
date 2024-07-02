@@ -1,4 +1,4 @@
-# Cypress Automated Accessibility Testing
+# Pa11y Accessibility Testing
 
 
 <p align="center">
