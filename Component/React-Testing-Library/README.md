@@ -2,7 +2,7 @@
 
 
 <p align="center">
-<img src="https://kyan-2015.s3.eu-west-1.amazonaws.com/production-2018/uploads/news_entry/image/492/og_size_react-testing-library.jpg" height="70px" width="100px" alt="" />
+<img src="https://kyan-2015.s3.eu-west-1.amazonaws.com/production-2018/uploads/news_entry/image/492/og_size_react-testing-library.jpg" height="100px" width="400px" alt="" />
 </p>
 
 This React testing project houses a simple integration for accessibility testing in your component tests
