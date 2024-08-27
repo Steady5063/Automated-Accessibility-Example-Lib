@@ -1,6 +1,6 @@
 # Automated-Accessibility-Example-Lib
 <p align="center">
-<img src="https://media.dev.to/cdn-cgi/image/width=1000,height=420,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Farticles%2Fz5ctg3kllcixgt6vt5kx.jpg" height="150px" width="250px" alt="" />
+<img src="https://media.dev.to/cdn-cgi/image/width=1000,height=420,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Farticles%2Fz5ctg3kllcixgt6vt5kx.jpg" height="150px" width="450px" alt="" />
 </p>
 
 This repo houses a library of accessibility automation examples that use multiple different testing frameworks.
