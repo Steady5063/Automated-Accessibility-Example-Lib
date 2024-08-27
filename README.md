@@ -12,7 +12,7 @@ case to their UI tests. We want to build a better more robust set of automated a
 
 ## Structure
 
-The examples are currently categorized by different levels of test. 
+The examples are currently categorized by different levels of test and test engines. 
 
 ```
 
@@ -23,6 +23,9 @@ The examples are currently categorized by different levels of test.
     └── Component
     |   ├── React Testing Lib      
     |   ├── Vue Test Utils         
-    |   └── Angular Karma          
-
+    |   └── Angular Karma
+    ├── Engines         
+    │   ├── Pa11y           
+    │   ├── IBM       
+    
 ```
