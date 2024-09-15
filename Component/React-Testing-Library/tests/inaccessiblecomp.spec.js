@@ -1,5 +1,5 @@
 import React from 'react';
-import InaccessibleComp from '../InaccessibleComp';
+import InaccessibleComp from '../inaccessibleComp';
 import {render, screen} from '@testing-library/react';
 import '@testing-library/jest-dom'
 import * as axe from 'axe-core';
