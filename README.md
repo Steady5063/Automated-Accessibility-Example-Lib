@@ -1,5 +1,7 @@
 # Automated-Accessibility-Example-Lib
 
+![Automated accessibility logo](https://media.licdn.com/dms/image/sync/v2/D5627AQHt_SJlSTtdcA/articleshare-shrink_800/articleshare-shrink_800/0/1715684773123?e=2147483647&v=beta&t=muOGpYLuVInf1nSV15GLjzwitxwgioLclm03Gdf9TF8)
+
 This repo houses a library of accessibility automation examples that use multiple different testing frameworks.
 
 ## Purpose
