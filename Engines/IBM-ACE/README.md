@@ -2,7 +2,7 @@
 
 
 <p align="center">
-<img src="https://www.google.com/url?sa=i&url=https%3A%2F%2Fgithub.com%2Fibma&psig=AOvVaw2D7q_fDtLugDX747maz0IX&ust=1739590847102000&source=images&cd=vfe&opi=89978449&ved=0CBQQjRxqFwoTCLCuyIafwosDFQAAAAAdAAAAABAE" height="70px" width="100px" alt="" />
+<img src="https://store-images.s-microsoft.com/image/apps.52349.8f791e1c-0956-48ac-ab7c-1abcf495cca0.1ec69e78-76af-4500-84e7-352b024211c7.86330390-708c-403a-9375-eb79620ba9bb" height="70px" width="100px" alt="" />
 </p>
 
 This IBM Accessibility Checker example houses the use of the accessibility checker and how it works and functions in UI testing project. In this example we use playwright and run ACE against the contents of the page. 
