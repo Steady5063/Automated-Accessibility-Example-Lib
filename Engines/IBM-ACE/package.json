@@ -1,0 +1,17 @@
+{
+  "name": "ibm-ace",
+  "version": "1.0.0",
+  "description": "Example project using the ibm ace engine to test accessibility of pages",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "author": "mark steadman",
+  "license": "ISC",
+  "dependencies": {
+    "accessibility-checker": "^4.0.0",
+    "accessibility-checker-engine": "^3.1.80",
+    "jest": "^29.7.0",
+    "playwright": "^1.50.1"
+  }
+}
