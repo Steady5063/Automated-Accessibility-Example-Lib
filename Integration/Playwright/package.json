@@ -1,0 +1,17 @@
+{
+  "name": "playwright",
+  "version": "1.0.0",
+  "description": "Example repo with accessibility testing integrations",
+  "main": "index.js",
+  "scripts": {
+    "test": "npx playwright test"
+  },
+  "author": "Mark Steadman",
+  "license": "ISC",
+  "dependencies": {
+    "@axe-core/playwright": "^4.10.1",
+    "@playwright/test": "^1.51.0",
+    "axe-playwright": "^2.1.0",
+    "playwright": "^1.51.0"
+  }
+}
