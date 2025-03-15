@@ -1,4 +1,4 @@
-# Cypress Automated Accessibility Testing
+# Playwrigth Automated Accessibility Testing
 
 
 <p align="center">
