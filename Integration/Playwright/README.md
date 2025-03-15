@@ -1,4 +1,4 @@
-# Playwrigth Automated Accessibility Testing
+# Playwright Automated Accessibility Testing
 
 
 <p align="center">
