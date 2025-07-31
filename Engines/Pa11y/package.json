@@ -4,9 +4,7 @@
   "description": "Tester project for pa11y",
   "main": "index.js",
   "scripts": {
-    "test": "jest",
-    "pa11y-axe" : "pa11y  https://www.normalil.gov/ --runner axe ",
-    "pa11y-htmlcs" : "pa11y https://www.normalil.gov/ > pa11yreport.html --runner htmlcs --runner axe --reporter html"
+    "test": "jest --detectOpenHandles"
   },
   "jest": {
     "testTimeout": 15000
@@ -14,7 +12,7 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "jest": "^29.7.0",
-    "pa11y": "^8.0.0"
+    "jest": "^30.0.5",
+    "pa11y": "^9.0.0"
   }
 }
