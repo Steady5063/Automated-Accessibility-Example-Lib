@@ -26,9 +26,7 @@ describe('Accessibility Testing Normal Website', () => {
   test('is accessible navigation menu', async () => {
     await page.goto('https://www.normalil.gov/');
     
-    const results = await new AxePuppeteer(page)
-      .include('nav') // Only test the navigation element
-      .analyze();
+    const results = await new AxePuppeteer(page).include('nav').analyze();
     
     expect(results.violations).toHaveLength(0);
   });
@@ -37,10 +35,8 @@ describe('Accessibility Testing Normal Website', () => {
   test('is accessible homepage excluding footer widgets', async () => {
     await page.goto('https://www.normalil.gov/');
     
-    const results = await new AxePuppeteer(page)
-      .exclude('footer .social-media') // Exclude social media widgets
-      .exclude('.advertisement')
-      .analyze();
+    const results = await new AxePuppeteer(page).exclude('footer .social-media')
+      .exclude('.advertisement').analyze();
     
     expect(results.violations).toHaveLength(0);
   });
