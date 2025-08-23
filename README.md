@@ -1,6 +1,8 @@
 # Automated-Accessibility-Example-Lib
+<div align="center">
+ <img src="./autoA11y.png" alt="Puppeteer Logo" width="250">
+</div>
 
-![Automated accessibility logo](https://media.licdn.com/dms/image/sync/v2/D5627AQHt_SJlSTtdcA/articleshare-shrink_800/articleshare-shrink_800/0/1715684773123?e=2147483647&v=beta&t=muOGpYLuVInf1nSV15GLjzwitxwgioLclm03Gdf9TF8)
 
 This repo houses a library of accessibility automation examples that use multiple different testing frameworks.
 
