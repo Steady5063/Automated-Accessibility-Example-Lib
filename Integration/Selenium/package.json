@@ -1,0 +1,22 @@
+{
+  "name": "selenium",
+  "version": "1.0.0",
+  "description": "A sample project for accessibility testing using selenium",
+  "license": "ISC",
+  "author": "mark steadman (steadyaccessibility@gmail.com)",
+  "type": "commonjs",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest",
+    "test:watch": "jest --watch"
+  },
+    "devDependencies": {
+    "jest": "^29.7.0"
+  },
+  "dependencies": {
+    "selenium-webdriver": "^4.37.0",
+    "@axe-core/webdriverjs": "^4.10.0",
+    "axe-core": "^4.10.0",
+    "chromedriver":"141.0.3"
+  }
+}

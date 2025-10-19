@@ -1,0 +1,43 @@
+# Accessibility Testing with @axe-core/puppeteer
+
+<div align="center">
+  <img src="https://user-images.githubusercontent.com/10379601/29446482-04f7036a-841f-11e7-9872-91d1fc2ea683.png" alt="Puppeteer Logo" width="200">
+  <br>
+  <p><em>Automated accessibility testing using Selenium and axe-core</em></p>
+</div>
+
+## Overview
+
+This project demonstrates automated accessibility testing using `@axe-core/webdriverjs`
+
+## Using @axe-core/webdriverjs
+
+### Basic Usage
+
+The `@axe-core/webdriverjs` library integrates seamlessly with any selenium based UI testing project to provide automated accessibility testing. Here's how to set it up:
+
+```javascript
+
+const { Builder } = require('selenium-webdriver');
+const AxeBuilder = require('@axe-core/webdriverjs');
+
+  beforeAll(async () => {
+    driver = await new Builder().forBrowser('chrome').build();
+    axeDriver = await new AxeBuilder(driver);
+  });
+
+```
+
+Then to run it in a test case: 
+
+```javascript
+
+  test('Basic accessibility scan', async () => {
+    await driver.get('https://www.example.com');
+    
+    const results = await axeDriver.analyze();
+    
+    expect(results.violations.length).toEqual(0);
+  }, 30000);
+
+```
