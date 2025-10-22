@@ -1,7 +1,7 @@
-# Accessibility Testing with @axe-core/puppeteer
+# Accessibility Testing with Selenium JS
 
 <div align="center">
-  <img src="https://images.seeklogo.com/logo-png/45/1/selenium-logo-png_seeklogo-456125.png" alt="Selenium Logo" width="200">
+  <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/9f/Selenium_logo.svg/1280px-Selenium_logo.svg.png" alt="Selenium Logo" width="200">
   <br>
   <p><em>Automated accessibility testing using Selenium and axe-core</em></p>
 </div>
