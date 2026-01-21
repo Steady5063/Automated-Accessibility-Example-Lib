@@ -1,0 +1,246 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Accessibility Testing Demo</title>
+    <style>
+        * {
+            box-sizing: border-box;
+        }
+        
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, sans-serif;
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 2rem;
+            line-height: 1.6;
+        }
+        
+        h1 {
+            color: #2c3e50;
+        }
+        
+        .section {
+            margin: 2rem 0;
+            padding: 1.5rem;
+            border: 1px solid #ddd;
+            border-radius: 8px;
+        }
+        
+        button {
+            background: #3498db;
+            color: white;
+            border: none;
+            padding: 0.75rem 1.5rem;
+            font-size: 1rem;
+            border-radius: 4px;
+            cursor: pointer;
+            transition: background 0.2s;
+        }
+        
+        button:hover {
+            background: #2980b9;
+        }
+        
+        button:focus {
+            outline: 3px solid #f39c12;
+            outline-offset: 2px;
+        }
+        
+        .accordion-button {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            width: 100%;
+            text-align: left;
+            background: #34495e;
+        }
+        
+        .accordion-button::after {
+            content: '▼';
+            transition: transform 0.3s;
+        }
+        
+        .accordion-button[aria-expanded="true"]::after {
+            transform: rotate(180deg);
+        }
+        
+        .accordion-content {
+            margin-top: 1rem;
+            padding: 1rem;
+            background: #ecf0f1;
+            border-radius: 4px;
+        }
+        
+        .hidden {
+            display: none;
+        }
+        
+        /* Modal Styles */
+        .modal-overlay {
+            position: fixed;
+            top: 0;
+            left: 0;
+            right: 0;
+            bottom: 0;
+            background: rgba(0, 0, 0, 0.7);
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            z-index: 1000;
+        }
+        
+        .modal {
+            background: white;
+            padding: 2rem;
+            border-radius: 8px;
+            max-width: 500px;
+            width: 90%;
+            position: relative;
+        }
+        
+        .modal h2 {
+            margin-top: 0;
+            color: #2c3e50;
+        }
+        
+        .modal-close {
+            position: absolute;
+            top: 1rem;
+            right: 1rem;
+            background: #e74c3c;
+            width: 32px;
+            height: 32px;
+            padding: 0;
+            font-size: 1.25rem;
+            line-height: 1;
+        }
+        
+        .modal-close:hover {
+            background: #c0392b;
+        }
+        
+        .sr-only {
+            position: absolute;
+            width: 1px;
+            height: 1px;
+            padding: 0;
+            margin: -1px;
+            overflow: hidden;
+            clip: rect(0, 0, 0, 0);
+            white-space: nowrap;
+            border: 0;
+        }
+    </style>
+</head>
+<body>
+    <h1>Accessibility Testing Demo Page</h1>
+    <p>This page demonstrates various accessibility patterns for testing with Playwright.</p>
+    
+    <!-- Accordion Section -->
+    <div class="section">
+        <h2>Accordion with ARIA</h2>
+        <button 
+            id="accordion-trigger"
+            class="accordion-button" 
+            aria-expanded="false"
+            aria-controls="accordion-content"
+        >
+            Click to expand/collapse
+        </button>
+        <div 
+            id="accordion-content" 
+            class="accordion-content hidden"
+            role="region"
+            aria-labelledby="accordion-trigger"
+        >
+            <p>This is the accordion content. It should be hidden when aria-expanded is false and visible when true.</p>
+            <p>You can test that the aria-expanded attribute changes correctly.</p>
+        </div>
+    </div>
+    
+    <!-- Modal Section -->
+    <div class="section">
+        <h2>Modal Dialog</h2>
+        <p>The modal should trap focus and return it to the trigger button when closed.</p>
+        <button id="open-modal">Open Modal</button>
+    </div>
+    
+    <!-- Modal Template -->
+    <div id="modal-overlay" class="hidden" aria-labelledby="modal-title">
+        <div class="modal">
+            <button id="modal-close" class="modal-close" aria-label="Close modal">×</button>
+            <h2 id="modal-title" tabindex="-1">Modal Dialog</h2>
+            <p>This is a modal dialog. Focus should move to the heading when opened.</p>
+            <p>Press Escape or click the × button to close.</p>
+            <button id="modal-action">Take Action</button>
+        </div>
+    </div>
+
+    <script>
+        // Accordion functionality
+        const accordionTrigger = document.getElementById('accordion-trigger');
+        const accordionContent = document.getElementById('accordion-content');
+        
+        accordionTrigger.addEventListener('click', () => {
+            const isExpanded = accordionTrigger.getAttribute('aria-expanded') === 'true';
+            accordionTrigger.setAttribute('aria-expanded', !isExpanded);
+            accordionContent.classList.toggle('hidden');
+        });
+        
+        // Modal functionality
+        const openModalBtn = document.getElementById('open-modal');
+        const modalOverlay = document.getElementById('modal-overlay');
+        const modalClose = document.getElementById('modal-close');
+        const modalTitle = document.getElementById('modal-title');
+        let lastFocusedElement;
+        
+        function openModal() {
+            lastFocusedElement = document.activeElement;
+            modalOverlay.classList.remove('hidden');
+            modalOverlay.setAttribute('role', 'dialog');
+            modalOverlay.setAttribute('aria-modal', 'true');
+            modalTitle.focus();
+        }
+        
+        function closeModal() {
+            modalOverlay.classList.add('hidden');
+            modalOverlay.removeAttribute('role');
+            modalOverlay.removeAttribute('aria-modal');
+            if (lastFocusedElement) {
+                lastFocusedElement.focus();
+            }
+        }
+        
+        openModalBtn.addEventListener('click', openModal);
+        modalClose.addEventListener('click', closeModal);
+        
+        // Close modal on Escape key
+        document.addEventListener('keydown', (e) => {
+            if (e.key === 'Escape' && !modalOverlay.classList.contains('hidden')) {
+                closeModal();
+            }
+        });
+        
+        // Basic focus trap for modal
+        modalOverlay.addEventListener('keydown', (e) => {
+            if (e.key === 'Tab' && !modalOverlay.classList.contains('hidden')) {
+                const focusableElements = modalOverlay.querySelectorAll(
+                    'button, [href], input, select, textarea, [tabindex]:not([tabindex="-1"])'
+                );
+                const firstElement = focusableElements[0];
+                const lastElement = focusableElements[focusableElements.length - 1];
+                
+                if (e.shiftKey && document.activeElement === firstElement) {
+                    e.preventDefault();
+                    lastElement.focus();
+                } else if (!e.shiftKey && document.activeElement === lastElement) {
+                    e.preventDefault();
+                    firstElement.focus();
+                }
+            }
+        });
+    </script>
+</body>
+</html>
