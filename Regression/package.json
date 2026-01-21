@@ -1,0 +1,19 @@
+{
+  "name": "a11yregression",
+  "version": "1.0.0",
+  "description": "Regression testing example for accessibility issues",
+  "license": "ISC",
+  "author": "Mark Steadman",
+  "type": "commonjs",
+  "main": "index.js",
+  "devDependencies": {
+    "@axe-core/playwright": "^4.10.0",
+    "@playwright/test": "^1.51.0"
+  },
+  "scripts": {
+    "test": "npx playwright test"
+  },
+  "dependencies": {
+    "playwright": "^1.57.0"
+  }
+}
