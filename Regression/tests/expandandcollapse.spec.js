@@ -47,7 +47,7 @@ test.describe('Accordian Accessibility', () => {
   /*
    * On pressing Enter (OR you could use space as well), the content is no longer hidden and available
   */
-  test('should change to aria-expanded', async ({ page }) => {
+  test('should change to content being visible', async ({ page }) => {
     await accordionButton.focus();
     
     await page.keyboard.press('Enter');
