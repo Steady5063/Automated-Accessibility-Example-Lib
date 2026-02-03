@@ -9,6 +9,7 @@ test.describe('Watch example site', () => {
   test.beforeAll(async ({ browser }) => {
     const context = await browser.newContext();
     page = await context.newPage();
+    await page.goto('https://www.normalil.gov/');
     await injectAxe(page)
   });
 
@@ -18,27 +19,22 @@ test.describe('Watch example site', () => {
 
   //Simple axe test that runs only the standard ruleset
   test('Axe Playwright Simple Scan - No customization', async () => {
-    await page.goto('https://nuro.co/');
     await checkA11y(page)
   });
 
   //Axe test that runs the getViolations function()
   test('Axe Playwright - Get violations scan', async () => {
-    await page.goto('https://nuro.co/');
-  
     const axeresults = getViolations(page);
     expect(axeresults.length).toBe(0);
   });
 
   //Axe test that runs the logging report functionality
   test('Axe Playwright - Console logging', async () => {
-    await page.goto('https://nuro.co/');
     await checkA11y(page, null, {
       detailedReport: true,
     });
 
   });
-
 
 
 });

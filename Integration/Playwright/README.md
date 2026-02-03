@@ -50,3 +50,27 @@ View file View file, <b>axe-playwright.spec.cy.js</b> for more examples and use 
   });
 
 ```
+## Using Playwright Accessibility (Locator) Assertions
+
+Playwright houses a few different types of assertions that you can use to test for accessibility of your web application. In the folder `pw-a11y-features`, there is a test spec that includes examples of the following: 
+
+* toHaveAccessibleDescription
+* toHaveAccessibleErrorMessage
+* toHaveAccessibleName
+
+These assertions are to go beyond a simple Playwright Axe Scan, and help drive more coverage for accessibility regression testing
+
+```js
+
+  test('Playwright matcher - toHaveAccessibleName()', async () => {
+    await page.goto('https://www.normalil.gov/');
+
+    const rightSlideIcon = page.locator('.alwaysDisplayArrowNew.next');
+    const leftSlideIcon = page.locator('.alwaysDisplayArrowNew.prev');
+
+    await expect(leftSlideIcon).toHaveAccessibleName('Previous Slide'); 
+    await expect(rightSlideIcon).toHaveAccessibleName('Next Slide');
+
+  });
+
+```

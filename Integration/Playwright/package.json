@@ -4,14 +4,14 @@
   "description": "Example repo with accessibility testing integrations",
   "main": "index.js",
   "scripts": {
-    "test": "npx playwright test"
+    "test": "npx playwright test --headed"
   },
   "author": "Mark Steadman",
   "license": "ISC",
   "dependencies": {
     "@axe-core/playwright": "^4.10.2",
     "@playwright/test": "^1.51.0",
-    "axe-playwright": "^2.1.0",
+    "axe-playwright": "^2.2.2",
     "playwright": "^1.51.0"
   }
 }
