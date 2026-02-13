@@ -14,8 +14,8 @@ test.describe('Watch example site', () => {
     await browser.close();
   });
 
-  //Test case showcasing how to toHaveAccessibleName matcher
-  test('Playwright matcher - toHaveAccessibleName()', async () => {
+  //Test case showcasing how to toHaveAccessibleName assertion
+  test('Playwright assertion - toHaveAccessibleName()', async () => {
     await page.goto('https://www.normalil.gov/');
 
     const rightSlideIcon = page.locator('.alwaysDisplayArrowNew.next');
@@ -26,9 +26,9 @@ test.describe('Watch example site', () => {
 
   });
 
-  //Test case showcasing how to use toHaveAccessibleErrorMessage() matcher
+  //Test case showcasing how to use toHaveAccessibleErrorMessage() assertion
   //NOTE: This requires the use of aria-errormessage to work, if you use aria desribedby see test case below
-  test('Playwright matcher - toHaveAccessibleErrorMessage()', async () => {
+  test('Playwright assertion - toHaveAccessibleErrorMessage()', async () => {
      await page.goto('https://accessibility.deque.com/contact-us-ga');
     
     const emailField = page.locator('input[name="firstname"]');
@@ -42,7 +42,7 @@ test.describe('Watch example site', () => {
 
   //Test case showcasing how to use toHaveAccessibleDescription()
   //Note: Works for testing error messages that are assocaited through aria-describedby
-  test('Playwright matcher - toHaveAccessibleDescription()', async () => {
+  test('Playwright assertion - toHaveAccessibleDescription()', async () => {
      await page.goto('https://accessibility.deque.com/contact-us-ga');
     
     const emailField = page.locator('input[name="firstname"]');
