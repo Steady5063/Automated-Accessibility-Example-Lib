@@ -1,0 +1,1526 @@
+[RootWebArea] — "Normal, IL - Official Website | Official Website"
+  [none]
+    [generic]
+      [generic]
+      [generic]
+        [link] — "Skip to Main Content"
+          [StaticText] — "Skip to Main Content"
+            [InlineTextBox]
+            [InlineTextBox]
+            [InlineTextBox]
+            [InlineTextBox]
+      [generic]
+      [generic]
+      [generic]
+        [generic]
+          [generic]
+          [generic]
+            [generic]
+            [generic]
+              [generic]
+                [banner]
+                  [generic]
+                    [generic]
+                      [generic]
+                        [link] — "Normal IL Homepage"
+                          [image] — "Normal IL Homepage"
+                      [navigation]
+                        [menu]
+                          [menuitem] — "GOVERNMENT"
+                            [StaticText] — "GOVERNMENT"
+                              [InlineTextBox]
+                          [menuitem] — "VISITORS"
+                            [StaticText] — "VISITORS"
+                              [InlineTextBox]
+                          [menuitem] — "RESIDENTS"
+                            [StaticText] — "RESIDENTS"
+                              [InlineTextBox]
+                          [menuitem] — "BUSINESS"
+                            [StaticText] — "BUSINESS"
+                              [InlineTextBox]
+                          [menuitem] — "I WANT TO..."
+                            [StaticText] — "I WANT TO..."
+                              [InlineTextBox]
+                          [menuitem] — "ACCESSIBILITY"
+                            [StaticText] — "ACCESSIBILITY"
+                              [InlineTextBox]
+                        [none]
+                      [generic]
+                        [generic]
+                          [generic]
+                            [generic]
+                              [generic]
+                                [generic]
+                                  [none]
+                                    [region] — "Search"
+                                      [generic]
+                                        [textbox] — "Search"
+                                          [none]
+                                          [generic]
+                                        [button] — "Search"
+                                          [image] — "Search"
+                                        [LabelText]
+                                          [StaticText] — "Search"
+                                            [InlineTextBox]
+                [generic]
+                  [generic]
+                    [generic]
+                      [generic]
+                        [generic]
+                          [generic]
+                            [generic]
+                              [generic]
+                                [generic]
+                                  [region] — "Slideshow"
+                                    [generic]
+                                      [generic]
+                                        [list]
+                                        [generic]
+                                          [button] — "Next Slide"
+                                            [SvgRoot]
+                                              [group] — "Slideshow Right Arrow"
+                                          [button] — "Previous Slide"
+                                            [SvgRoot]
+                                              [group] — "Slideshow Left Arrow"
+                                      [list]
+                                        [listitem]
+                                          [button] — "Mapping dot for slide number 1"
+                                            [StaticText] — "1"
+                                              [InlineTextBox]
+                                            [none]
+                                              [StaticText] — "Open Data Portal: Connecting You to Community Data"
+                                                [InlineTextBox]
+                                      [generic]
+                [generic]
+                  [generic]
+                    [main]
+                      [generic]
+                        [generic]
+                          [generic]
+                            [generic]
+                              [generic]
+                            [none]
+                [generic]
+                  [generic]
+                    [generic]
+                      [generic]
+                        [generic]
+                          [generic]
+                            [generic]
+                              [generic]
+                                [none]
+                                  [generic]
+                                    [LayoutTable]
+                                      [none]
+                                    [none]
+                                      [navigation] — "Graphic links"
+                                        [generic]
+                                          [none]
+                                            [list]
+                                              [listitem]
+                                                [none]
+                                                  [link] — "Parks & Recreation"
+                                                    [none]
+                                                      [LayoutTable]
+                                                        [none]
+                                                          [StaticText] — "Parks & Recreation"
+                                                            [InlineTextBox]
+                                          [none]
+                                            [list]
+                                              [listitem]
+                                                [none]
+                                                  [link] — "Water/Utility Bill  Opens in new window"
+                                                    [none]
+                                                      [LayoutTable]
+                                                        [none]
+                                                          [StaticText] — "Water/Utility Bill "
+                                                            [InlineTextBox]
+                                    [none]
+                          [generic]
+                            [generic]
+                              [generic]
+                                [none]
+                                  [generic]
+                                    [LayoutTable]
+                                      [none]
+                                    [none]
+                                      [navigation] — "Graphic links"
+                                        [generic]
+                                          [none]
+                                            [list]
+                                              [listitem]
+                                                [none]
+                                                  [link] — "Cultural Arts"
+                                                    [none]
+                                                      [LayoutTable]
+                                                        [none]
+                                                          [StaticText] — "Cultural Arts"
+                                                            [InlineTextBox]
+                                          [none]
+                                            [list]
+                                              [listitem]
+                                                [none]
+                                                  [link] — "Economic Development"
+                                                    [none]
+                                                      [LayoutTable]
+                                                        [none]
+                                                          [StaticText] — "Economic Development"
+                                                            [InlineTextBox]
+                                    [none]
+                          [generic]
+                            [generic]
+                              [generic]
+                                [none]
+                                  [generic]
+                                    [LayoutTable]
+                                      [none]
+                                    [none]
+                                      [navigation] — "Graphic links"
+                                        [generic]
+                                          [none]
+                                            [list]
+                                              [listitem]
+                                                [none]
+                                                  [link] — "Police"
+                                                    [none]
+                                                      [LayoutTable]
+                                                        [none]
+                                                          [StaticText] — "Police"
+                                                            [InlineTextBox]
+                                          [none]
+                                            [list]
+                                              [listitem]
+                                                [none]
+                                                  [link] — "Fire"
+                                                    [none]
+                                                      [LayoutTable]
+                                                        [none]
+                                                          [StaticText] — "Fire"
+                                                            [InlineTextBox]
+                                    [none]
+                [generic]
+                  [generic]
+                    [generic]
+                      [generic]
+                        [generic]
+                          [generic]
+                            [generic]
+                              [generic]
+                                [none]
+                                  [generic]
+                                    [LayoutTable]
+                                      [none]
+                                    [none]
+                                      [navigation] — "Graphic links"
+                                        [generic]
+                                          [none]
+                                            [list]
+                                              [listitem]
+                                                [none]
+                                                  [link] — "Home"
+                                                    [none]
+                                                      [LayoutTable]
+                                                        [none]
+                                                          [StaticText] — "Home"
+                                                            [InlineTextBox]
+                                          [none]
+                                            [list]
+                                              [listitem]
+                                                [none]
+                                                  [link] — "Jobs"
+                                                    [none]
+                                                      [LayoutTable]
+                                                        [none]
+                                                          [StaticText] — "Jobs"
+                                                            [InlineTextBox]
+                                          [none]
+                                            [list]
+                                              [listitem]
+                                                [none]
+                                                  [link] — "Parking"
+                                                    [none]
+                                                      [LayoutTable]
+                                                        [none]
+                                                          [StaticText] — "Parking"
+                                                            [InlineTextBox]
+                                    [none]
+                          [generic]
+                            [generic]
+                              [generic]
+                                [none]
+                                  [generic]
+                                    [LayoutTable]
+                                      [none]
+                                    [none]
+                                      [navigation] — "Graphic links"
+                                        [generic]
+                                          [none]
+                                            [list]
+                                              [listitem]
+                                                [none]
+                                                  [link] — "Report A Problem"
+                                                    [none]
+                                                      [LayoutTable]
+                                                        [none]
+                                                          [StaticText] — "Report"
+                                                            [InlineTextBox]
+                                                          [LineBreak] — "
+"
+                                                            [InlineTextBox]
+                                                          [StaticText] — "A Problem"
+                                                            [InlineTextBox]
+                                          [none]
+                                            [list]
+                                              [listitem]
+                                                [none]
+                                                  [link] — "Mayor, Council"
+                                                    [none]
+                                                      [LayoutTable]
+                                                        [none]
+                                                          [StaticText] — "Mayor,"
+                                                            [InlineTextBox]
+                                                          [LineBreak] — "
+"
+                                                            [InlineTextBox]
+                                                          [StaticText] — "Council"
+                                                            [InlineTextBox]
+                                    [none]
+                [generic]
+                  [none]
+                    [generic]
+                      [generic]
+                        [generic]
+                          [generic]
+                            [generic]
+                              [generic]
+                                [generic]
+                                  [none]
+                                    [region] — "Info Advanced"
+                                      [sectionheader]
+                                        [none]
+                                      [none]
+                                        [generic]
+                                          [none]
+                                            [list]
+                                              [listitem]
+                                                [heading] — "POPULAR RESOURCES"
+                                                  [StaticText] — "POPULAR RESOURCES"
+                                                    [InlineTextBox]
+                                                [paragraph]
+                                                  [StaticText] — "Find what you're looking for"
+                                                    [InlineTextBox]
+                                      [none]
+                            [generic]
+                              [generic]
+                                [generic]
+                                  [generic]
+                            [generic]
+                              [generic]
+                                [generic]
+                                  [none]
+                                    [region] — "Quick Links"
+                                      [sectionheader]
+                                        [none]
+                                      [none]
+                                        [generic]
+                                          [none]
+                                            [list]
+                                              [listitem]
+                                                [link] — "Ironwood Golf Course"
+                                                  [StaticText] — "Ironwood Golf Course"
+                                                    [InlineTextBox]
+                                                [none]
+                                              [listitem]
+                                                [link] — "Garbage & Recycling"
+                                                  [StaticText] — "Garbage & Recycling"
+                                                    [InlineTextBox]
+                                                [none]
+                                              [listitem]
+                                                [link] — "Open Data"
+                                                  [StaticText] — "Open Data"
+                                                    [InlineTextBox]
+                                                [none]
+                                          [none]
+                                            [list]
+                                              [listitem]
+                                                [link] — "Police Report"
+                                                  [StaticText] — "Police Report"
+                                                    [InlineTextBox]
+                                                [none]
+                                              [listitem]
+                                                [link] — "Bid/RFQ Postings"
+                                                  [StaticText] — "Bid/RFQ Postings"
+                                                    [InlineTextBox]
+                                                [none]
+                                              [listitem]
+                                                [link] — "Agendas, Minutes & Reports"
+                                                  [StaticText] — "Agendas, Minutes & Reports"
+                                                    [InlineTextBox]
+                                                [none]
+                                      [none]
+                [generic]
+                  [generic]
+                    [generic]
+                      [generic]
+                        [generic]
+                          [generic]
+                            [generic]
+                              [generic]
+                                [none]
+                                  [region] — "Info Advanced"
+                                    [sectionheader]
+                                      [none]
+                                    [none]
+                                      [generic]
+                                        [none]
+                                          [list]
+                                            [listitem]
+                                              [heading] — "NEWS & EVENTS"
+                                                [StaticText] — "NEWS & EVENTS"
+                                                  [InlineTextBox]
+                                              [paragraph]
+                                                [StaticText] — "Stay up to date with us"
+                                                  [InlineTextBox]
+                                    [none]
+                        [generic]
+                          [generic]
+                            [generic]
+                              [generic]
+                                [tablist]
+                                  [none]
+                                    [list]
+                                      [listitem]
+                                        [tab] — "SPOTLIGHTS"
+                                          [StaticText] — "SPOTLIGHTS"
+                                            [InlineTextBox]
+                                    [tabpanel]
+                                      [none]
+                                        [region] — "News Flash"
+                                          [none]
+                                            [generic]
+                                              [generic]
+                                                [list]
+                                                  [listitem]
+                                                    [link] — "Normal Now Opens in new window"
+                                                      [image] — "Normal Now Opens in new window"
+                                                    [none]
+                                                      [heading] — "Normal Now: Jan. 23, 2026 Opens in new window"
+                                                        [link] — "Normal Now: Jan. 23, 2026 Opens in new window"
+                                                          [StaticText] — "Normal Now: Jan. 23, 2026"
+                                                            [InlineTextBox]
+                                                      [none]
+                                                        [StaticText] — "An exciting start to the year! Read about the What Works Cities and Facilities team certifications, Town news and more. Learn about how the Planning & Zoning team collaborates across the community."
+                                                          [InlineTextBox]
+                                                          [InlineTextBox]
+                                                          [InlineTextBox]
+                                                          [InlineTextBox]
+                                                          [InlineTextBox]
+                                                          [InlineTextBox]
+                                                          [InlineTextBox]
+                                                        [link] — "Rea Opens in new window"
+                                                          [StaticText] — "Rea"
+                                                            [InlineTextBox]
+                                                  [listitem]
+                                                    [link] — "A worker manages a controlled burn in Fairview Park Opens in new window"
+                                                      [image] — "A worker manages a controlled burn in Fairview Park Opens in new window"
+                                                    [none]
+                                                      [heading] — "Normal Now: Feb. 19, 2026 Opens in new window"
+                                                        [link] — "Normal Now: Feb. 19, 2026 Opens in new window"
+                                                          [StaticText] — "Normal Now: Feb. 19, 2026"
+                                                            [InlineTextBox]
+                                                      [none]
+                                                        [StaticText] — "Learn how Normal Public Library collaborates with others; learn about electrical aggregation and prescribed burns."
+                                                          [InlineTextBox]
+                                                          [InlineTextBox]
+                                                          [InlineTextBox]
+                                                          [InlineTextBox]
+                                                        [link] — "Read the Full Issue Opens in new window"
+                                                          [StaticText] — "Read the Full Issue"
+                                                            [InlineTextBox]
+                                                  [listitem]
+                                                    [link] — "Constitution Trail along Gregory Street in west Normal"
+                                                      [image] — "Constitution Trail along Gregory Street in west Normal"
+                                                    [none]
+                                                      [heading] — "Durbin Secures $1.9 Million for Trail Extension in West Normal"
+                                                        [link] — "Durbin Secures $1.9 Million for Trail Extension in West Normal"
+                                                          [StaticText] — "Durbin Secures $1.9 Million for Trail Extension in West Normal"
+                                                            [InlineTextBox]
+                                                            [InlineTextBox]
+                                                      [none]
+                                                        [StaticText] — "U.S. Senate Democratic Whip Dick Durbin announced support this month for Illinois priorities, including $1.9 million to fund engineering and construction of an extension of the Constitution Trail in west Normal."
+                                                          [InlineTextBox]
+                                                          [InlineTextBox]
+                                                          [InlineTextBox]
+                                                          [InlineTextBox]
+                                                          [InlineTextBox]
+                                                          [InlineTextBox]
+                                                          [InlineTextBox]
+                                                        [link] — "Durbin Secures $1.9 Million for Trail Extension in West Normal Read on..."
+                                                          [StaticText] — "Read on..."
+                                                            [InlineTextBox]
+                                                  [listitem]
+                                                    [link] — "undefined Opens in new window"
+                                                      [image] — "undefined Opens in new window"
+                                                    [none]
+                                                      [heading] — "Normal Community Garden Renewals and Registration Opening Opens in new window"
+                                                        [link] — "Normal Community Garden Renewals and Registration Opening Opens in new window"
+                                                          [StaticText] — "Normal Community Garden Renewals and Registration Opening"
+                                                            [InlineTextBox]
+                                                            [InlineTextBox]
+                                                            [InlineTextBox]
+                                                      [none]
+                                                        [StaticText] — "Registration for two organic community gardens in Normal opens at the Normal Parks & Recreation office,100 East Phoenix Ave., 8:30 a.m. Tuesday, March 3 for Normal residents and 8:30 a.m. Thursday, March 5 for non-residents."
+                                                          [InlineTextBox]
+                                                          [InlineTextBox]
+                                                          [InlineTextBox]
+                                                          [InlineTextBox]
+                                                          [InlineTextBox]
+                                                          [InlineTextBox]
+                                                          [InlineTextBox]
+                                                          [InlineTextBox]
+                                                        [link] — "Normal Community Garden Renewals and Registration Opening Opens in new window Read on... Opens in new window"
+                                                          [StaticText] — "Read on..."
+                                                            [InlineTextBox]
+                                                  [listitem]
+                                                    [link] — "Normal Now Opens in new window"
+                                                      [image] — "Normal Now Opens in new window"
+                                                    [none]
+                                                      [heading] — "Normal Now: Jan. 23, 2026 Opens in new window"
+                                                        [link] — "Normal Now: Jan. 23, 2026 Opens in new window"
+                                                          [StaticText] — "Normal Now: Jan. 23, 2026"
+                                                            [InlineTextBox]
+                                                      [none]
+                                                        [StaticText] — "An exciting start to the year! Read about the What Works Cities and Facilities team certifications, Town news and more. Learn about how the Planning & Zoning team collaborates across the community."
+                                                          [InlineTextBox]
+                                                          [InlineTextBox]
+                                                          [InlineTextBox]
+                                                          [InlineTextBox]
+                                                          [InlineTextBox]
+                                                          [InlineTextBox]
+                                                          [InlineTextBox]
+                                                        [link] — "Rea Opens in new window"
+                                                          [StaticText] — "Rea"
+                                                            [InlineTextBox]
+                                                  [listitem]
+                                                    [link] — "A worker manages a controlled burn in Fairview Park Opens in new window"
+                                                      [image] — "A worker manages a controlled burn in Fairview Park Opens in new window"
+                                                    [none]
+                                                      [heading] — "Normal Now: Feb. 19, 2026 Opens in new window"
+                                                        [link] — "Normal Now: Feb. 19, 2026 Opens in new window"
+                                                          [StaticText] — "Normal Now: Feb. 19, 2026"
+                                                            [InlineTextBox]
+                                                      [none]
+                                                        [StaticText] — "Learn how Normal Public Library collaborates with others; learn about electrical aggregation and prescribed burns."
+                                                          [InlineTextBox]
+                                                          [InlineTextBox]
+                                                          [InlineTextBox]
+                                                          [InlineTextBox]
+                                                        [link] — "Read the Full Issue Opens in new window"
+                                                          [StaticText] — "Read the Full Issue"
+                                                            [InlineTextBox]
+                                              [link] — "Next"
+                                                [none]
+                                                  [StaticText] — "Next"
+                                                    [InlineTextBox]
+                                              [link] — "Previous"
+                                                [none]
+                                                  [StaticText] — "Previous"
+                                                    [InlineTextBox]
+                                            [link] — "News Flash View All"
+                                              [StaticText] — "VIEW ALL NEWS"
+                                                [InlineTextBox]
+                                          [none]
+                                    [list]
+                                      [listitem]
+                                        [tab] — "NEWS RELEASES"
+                                          [StaticText] — "NEWS RELEASES"
+                                            [InlineTextBox]
+                                    [none]
+                                      [none]
+                                        [none]
+                                    [none]
+                                      [none]
+                                    [none]
+                                      [none]
+                                        [none]
+                                    [none]
+                                      [none]
+                                    [none]
+                                      [none]
+                                        [none]
+                                    [none]
+                                      [none]
+                                    [none]
+                                      [none]
+                                        [none]
+                                    [none]
+                                      [none]
+                                    [none]
+                                      [none]
+                                        [none]
+                                    [none]
+                                      [none]
+                                    [none]
+                                      [none]
+                                        [none]
+                                    [none]
+                                      [none]
+                                    [none]
+                                      [none]
+                                        [none]
+                                    [none]
+                                      [none]
+                                    [none]
+                                      [none]
+                                        [none]
+                                    [none]
+                                      [none]
+                                    [none]
+                                      [none]
+                                        [none]
+                                    [none]
+                                      [none]
+                                    [list]
+                                      [listitem]
+                                        [tab] — "ROAD CLOSURES"
+                                          [StaticText] — "ROAD CLOSURES"
+                                            [InlineTextBox]
+                                    [none]
+                                      [none]
+                                        [none]
+                                    [none]
+                                      [none]
+                [generic]
+                  [none]
+                    [generic]
+                      [generic]
+                        [generic]
+                          [generic]
+                            [generic]
+                              [generic]
+                                [generic]
+                                  [none]
+                                    [region] — "Info Advanced"
+                                      [sectionheader]
+                                        [none]
+                                      [none]
+                                        [generic]
+                                          [none]
+                                            [list]
+                                              [listitem]
+                                                [heading] — "CALENDAR & PROJECTS"
+                                                  [StaticText] — "CALENDAR & PROJECTS"
+                                                    [InlineTextBox]
+                                                [paragraph]
+                                                  [StaticText] — "Stay up to date with us"
+                                                    [InlineTextBox]
+                                      [none]
+                          [generic]
+                            [generic]
+                              [generic]
+                                [generic]
+                                  [tablist]
+                                    [list]
+                                      [listitem]
+                                        [tab] — "MEETINGS"
+                                          [StaticText] — "MEETINGS"
+                                            [InlineTextBox]
+                                      [listitem]
+                                        [tab] — "EVENTS"
+                                          [StaticText] — "EVENTS"
+                                            [InlineTextBox]
+                                    [none]
+                                      [tabpanel]
+                                        [none]
+                                          [generic]
+                                            [none]
+                                              [none]
+                                                [none]
+                                                  [heading] — "Previous Month February 2026 Next Month"
+                                                    [button] — "Previous Month"
+                                                      [SvgRoot]
+                                                        [group] — "Arrow Left"
+                                                    [generic]
+                                                      [StaticText] — "February 2026"
+                                                        [InlineTextBox]
+                                                    [button] — "Next Month"
+                                                      [SvgRoot]
+                                                        [group] — "Arrow Right"
+                                                  [grid] — "Previous Month February 2026 Next Month"
+                                                    [rowgroup]
+                                                      [row] — "SUN MON TUE WED THU FRI SAT"
+                                                        [columnheader] — "SUN"
+                                                          [Abbr] — " Sunday "
+                                                            [StaticText] — "SUN"
+                                                              [InlineTextBox]
+                                                        [columnheader] — "MON"
+                                                          [Abbr] — " Monday "
+                                                            [StaticText] — "MON"
+                                                              [InlineTextBox]
+                                                        [columnheader] — "TUE"
+                                                          [Abbr] — " Tuesday "
+                                                            [StaticText] — "TUE"
+                                                              [InlineTextBox]
+                                                        [columnheader] — "WED"
+                                                          [Abbr] — " Wednesday "
+                                                            [StaticText] — "WED"
+                                                              [InlineTextBox]
+                                                        [columnheader] — "THU"
+                                                          [Abbr] — " Thursday "
+                                                            [StaticText] — "THU"
+                                                              [InlineTextBox]
+                                                        [columnheader] — "FRI"
+                                                          [Abbr] — " Friday "
+                                                            [StaticText] — "FRI"
+                                                              [InlineTextBox]
+                                                        [columnheader] — "SAT"
+                                                          [Abbr] — " Saturday "
+                                                            [StaticText] — "SAT"
+                                                              [InlineTextBox]
+                                                    [none]
+                                                      [row] — "1 2 3 4 5 6 7"
+                                                        [gridcell] — "1"
+                                                          [none]
+                                                            [time]
+                                                              [StaticText] — "1"
+                                                                [InlineTextBox]
+                                                        [gridcell] — "2"
+                                                          [none]
+                                                            [time]
+                                                              [StaticText] — "2"
+                                                                [InlineTextBox]
+                                                        [gridcell] — "3"
+                                                          [none]
+                                                            [time]
+                                                              [StaticText] — "3"
+                                                                [InlineTextBox]
+                                                        [gridcell] — "4"
+                                                          [none]
+                                                            [time]
+                                                              [StaticText] — "4"
+                                                                [InlineTextBox]
+                                                        [gridcell] — "5"
+                                                          [none]
+                                                            [time]
+                                                              [StaticText] — "5"
+                                                                [InlineTextBox]
+                                                        [gridcell] — "6"
+                                                          [none]
+                                                            [time]
+                                                              [StaticText] — "6"
+                                                                [InlineTextBox]
+                                                        [gridcell] — "7"
+                                                          [none]
+                                                            [time]
+                                                              [StaticText] — "7"
+                                                                [InlineTextBox]
+                                                      [row] — "8 9 10 11 12 13 14"
+                                                        [gridcell] — "8"
+                                                          [none]
+                                                            [time]
+                                                              [StaticText] — "8"
+                                                                [InlineTextBox]
+                                                        [gridcell] — "9"
+                                                          [none]
+                                                            [time]
+                                                              [StaticText] — "9"
+                                                                [InlineTextBox]
+                                                        [gridcell] — "10"
+                                                          [none]
+                                                            [time]
+                                                              [StaticText] — "10"
+                                                                [InlineTextBox]
+                                                        [gridcell] — "11"
+                                                          [none]
+                                                            [time]
+                                                              [StaticText] — "11"
+                                                                [InlineTextBox]
+                                                        [gridcell] — "12"
+                                                          [none]
+                                                            [time]
+                                                              [StaticText] — "12"
+                                                                [InlineTextBox]
+                                                        [gridcell] — "13"
+                                                          [none]
+                                                            [time]
+                                                              [StaticText] — "13"
+                                                                [InlineTextBox]
+                                                        [gridcell] — "14"
+                                                          [none]
+                                                            [time]
+                                                              [StaticText] — "14"
+                                                                [InlineTextBox]
+                                                      [row] — "15 16 17 18 19 20 21"
+                                                        [gridcell] — "15"
+                                                          [none]
+                                                            [time]
+                                                              [StaticText] — "15"
+                                                                [InlineTextBox]
+                                                        [gridcell] — "16"
+                                                          [none]
+                                                            [time]
+                                                              [StaticText] — "16"
+                                                                [InlineTextBox]
+                                                        [gridcell] — "17"
+                                                          [none]
+                                                            [time]
+                                                              [StaticText] — "17"
+                                                                [InlineTextBox]
+                                                        [gridcell] — "18"
+                                                          [none]
+                                                            [time]
+                                                              [StaticText] — "18"
+                                                                [InlineTextBox]
+                                                        [gridcell] — "19"
+                                                          [none]
+                                                            [time]
+                                                              [StaticText] — "19"
+                                                                [InlineTextBox]
+                                                        [gridcell] — "20"
+                                                          [none]
+                                                            [time]
+                                                              [StaticText] — "20"
+                                                                [InlineTextBox]
+                                                        [gridcell] — "21"
+                                                          [none]
+                                                            [time]
+                                                              [StaticText] — "21"
+                                                                [InlineTextBox]
+                                                      [row] — "22 23 24 25 26 27 28"
+                                                        [gridcell] — "22"
+                                                          [none]
+                                                            [time]
+                                                              [StaticText] — "22"
+                                                                [InlineTextBox]
+                                                        [gridcell] — "23"
+                                                          [none]
+                                                            [time]
+                                                              [StaticText] — "23"
+                                                                [InlineTextBox]
+                                                        [gridcell] — "24"
+                                                          [none]
+                                                            [time]
+                                                              [StaticText] — "24"
+                                                                [InlineTextBox]
+                                                        [gridcell] — "25"
+                                                          [none]
+                                                            [time]
+                                                              [StaticText] — "25"
+                                                                [InlineTextBox]
+                                                        [gridcell] — "26"
+                                                          [none]
+                                                            [time]
+                                                              [StaticText] — "26"
+                                                                [InlineTextBox]
+                                                        [gridcell] — "27"
+                                                          [none]
+                                                            [time]
+                                                              [StaticText] — "27"
+                                                                [InlineTextBox]
+                                                        [gridcell] — "28"
+                                                          [none]
+                                                            [time]
+                                                              [StaticText] — "28"
+                                                                [InlineTextBox]
+                                                [generic]
+                                                  [paragraph]
+                                                    [StaticText] — "There are no published events in current month."
+                                                      [InlineTextBox]
+                                              [link] — "Calendar View All"
+                                                [StaticText] — "VIEW ALL MEETINGS"
+                                                  [InlineTextBox]
+                                            [none]
+                                      [none]
+                                        [none]
+                                          [none]
+                                            [none]
+                                              [none]
+                                                [none]
+                                                  [none]
+                                                [none]
+                                        [none]
+                                          [none]
+                                        [none]
+                                          [none]
+                                            [none]
+                                              [none]
+                                                [none]
+                                                  [none]
+                                                [none]
+                                      [none]
+                                        [none]
+                                          [none]
+                                          [none]
+                                          [none]
+                                          [none]
+                                          [none]
+                                          [none]
+                                          [none]
+                                        [none]
+                                          [none]
+                                            [none]
+                                            [none]
+                                            [none]
+                                            [none]
+                                            [none]
+                                            [none]
+                                            [none]
+                                          [none]
+                                            [none]
+                                            [none]
+                                            [none]
+                                            [none]
+                                            [none]
+                                            [none]
+                                            [none]
+                                          [none]
+                                            [none]
+                                            [none]
+                                            [none]
+                                            [none]
+                                            [none]
+                                            [none]
+                                            [none]
+                                          [none]
+                                            [none]
+                                            [none]
+                                            [none]
+                                            [none]
+                                            [none]
+                                            [none]
+                                            [none]
+                            [generic]
+                              [generic]
+                                [generic]
+                                  [none]
+                                    [region] — "Normal Forum Opens in new window"
+                                      [sectionheader]
+                                        [none]
+                                          [heading] — "Normal Forum Opens in new window"
+                                            [link] — "Normal Forum Opens in new window"
+                                              [StaticText] — "NORMAL FORUM"
+                                                [InlineTextBox]
+                                      [none]
+                                        [generic]
+                                          [none]
+                                            [list]
+                                              [listitem]
+                                                [link] — "Artist rendering of Fire Station #2 at Shephard and Hershey Opens in new window"
+                                                  [image] — "Artist rendering of Fire Station #2 at Shephard and Hershey Opens in new window"
+                                                [none]
+                                                  [heading] — "Normal Fire Department Opens in new window"
+                                                    [link] — "Normal Fire Department Opens in new window"
+                                                      [StaticText] — "Normal Fire Department"
+                                                        [InlineTextBox]
+                                                  [generic]
+                                                    [StaticText] — "The Normal Fire Department continually strives to better serve the community. "
+                                                      [InlineTextBox]
+                                                    [link] — "Normal Fire Department Opens in new window Learn more on the Normal Forum Opens in new window"
+                                                      [StaticText] — "Learn more on the Normal Forum"
+                                                        [InlineTextBox]
+                                              [listitem]
+                                                [link] — "undefined Opens in new window"
+                                                  [image] — "undefined Opens in new window"
+                                                [none]
+                                                  [heading] — "Pedestrian & Roadway Campus Safety Initiative Opens in new window"
+                                                    [link] — "Pedestrian & Roadway Campus Safety Initiative Opens in new window"
+                                                      [StaticText] — "Pedestrian & Roadway Campus Safety Initiative"
+                                                        [InlineTextBox]
+                                                  [generic]
+                                                    [StaticText] — "Illinois State University and the Town of Normal launched the Pedestrian & Roadway Campus Safety Initiative, a comprehensive effort to enhance tra... "
+                                                      [InlineTextBox]
+                                                      [InlineTextBox]
+                                                    [link] — "Pedestrian & Roadway Campus Safety Initiative Opens in new window Learn more on the Normal FOrum Opens in new window"
+                                                      [StaticText] — "Learn more on the Normal FOrum"
+                                                        [InlineTextBox]
+                                              [listitem]
+                                                [link] — "a thumbnail pic of the Uptown Connector/Underpass Project Opens in new window"
+                                                  [image] — "a thumbnail pic of the Uptown Connector/Underpass Project Opens in new window"
+                                                [none]
+                                                  [heading] — "Uptown Connector/Underpass Opens in new window"
+                                                    [link] — "Uptown Connector/Underpass Opens in new window"
+                                                      [StaticText] — "Uptown Connector/Underpass"
+                                                        [InlineTextBox]
+                                                  [generic]
+                                                    [StaticText] — "Work on the Uptown Connector/Underpass continues. "
+                                                      [InlineTextBox]
+                                                    [link] — "Uptown Connector/Underpass Opens in new window Learn more on the Normal Forum Opens in new window"
+                                                      [StaticText] — "Learn more on the Normal Forum"
+                                                        [InlineTextBox]
+                                              [listitem]
+                                                [link] — "One Normal Plaza memorial sculpture Opens in new window"
+                                                  [image] — "One Normal Plaza memorial sculpture Opens in new window"
+                                                [none]
+                                                  [heading] — "Public Art Opens in new window"
+                                                    [link] — "Public Art Opens in new window"
+                                                      [StaticText] — "Public Art"
+                                                        [InlineTextBox]
+                                                  [generic]
+                                                    [StaticText] — "The Town of Normal's Public Art Working Group is working to inform and expand the Town's public art activities. "
+                                                      [InlineTextBox]
+                                                      [InlineTextBox]
+                                                    [link] — "Public Art Opens in new window Learn more on the Normal Forum Opens in new window"
+                                                      [StaticText] — "Learn more on the Normal Forum"
+                                                        [InlineTextBox]
+                                              [listitem]
+                                                [link] — "A playground and sign - Carden Park Opens in new window"
+                                                  [image] — "A playground and sign - Carden Park Opens in new window"
+                                                [none]
+                                                  [heading] — "Parks & Recreation Projects Opens in new window"
+                                                    [link] — "Parks & Recreation Projects Opens in new window"
+                                                      [StaticText] — "Parks & Recreation Projects"
+                                                        [InlineTextBox]
+                                                  [generic]
+                                                    [StaticText] — "The Parks & Recreation Department has several projects underway to improve our community’s parks and recreational facilities, making them even bet... "
+                                                      [InlineTextBox]
+                                                      [InlineTextBox]
+                                                    [link] — "Parks & Recreation Projects Opens in new window Learn more on the Normal Forum Opens in new window"
+                                                      [StaticText] — "Learn more on the Normal Forum"
+                                                        [InlineTextBox]
+                                              [listitem]
+                                                [link] — "AdobeStock_438837293_cone Opens in new window"
+                                                  [image] — "AdobeStock_438837293_cone Opens in new window"
+                                                [none]
+                                                  [heading] — "Savannah Green Streets & Alleys Opens in new window"
+                                                    [link] — "Savannah Green Streets & Alleys Opens in new window"
+                                                      [StaticText] — "Savannah Green Streets & Alleys"
+                                                        [InlineTextBox]
+                                                  [generic]
+                                                    [StaticText] — "Stay informed about efforts to rehab and upgrade the streets and alleys of the Savannah Green Subdivision. "
+                                                      [InlineTextBox]
+                                                      [InlineTextBox]
+                                                    [link] — "Savannah Green Streets & Alleys Opens in new window Learn more on the Normal Forum Opens in new window"
+                                                      [StaticText] — "Learn more on the Normal Forum"
+                                                        [InlineTextBox]
+                                        [link] — "Normal Forum Opens in new window VIEW ALL"
+                                          [StaticText] — "VIEW ALL"
+                                            [InlineTextBox]
+                                      [none]
+                [contentinfo]
+                  [generic]
+                    [generic]
+                      [generic]
+                        [generic]
+                          [generic]
+                            [generic]
+                              [generic]
+                                [none]
+                                  [region] — "Info Advanced"
+                                    [sectionheader]
+                                      [none]
+                                    [none]
+                                      [generic]
+                                        [none]
+                                          [list]
+                                            [listitem]
+                                              [paragraph]
+                                                [link] — "Homepage Normal Illinois"
+                                                  [image] — "Homepage Normal Illinois"
+                                    [none]
+                            [generic]
+                              [generic]
+                                [none]
+                                  [generic]
+                                    [LayoutTable]
+                                      [none]
+                                    [none]
+                                      [navigation] — "Graphic links"
+                                        [generic]
+                                          [none]
+                                            [list]
+                                              [listitem]
+                                                [link] — "Facebook Opens in new window"
+                                                  [image] — "Facebook Opens in new window"
+                                          [none]
+                                            [list]
+                                              [listitem]
+                                                [link] — "Instagram Opens in new window"
+                                                  [image] — "Instagram Opens in new window"
+                                          [none]
+                                            [list]
+                                              [listitem]
+                                                [link] — "Nextdoor Opens in new window"
+                                                  [image] — "Nextdoor Opens in new window"
+                                          [none]
+                                            [list]
+                                              [listitem]
+                                                [link] — "YouTube Opens in new window"
+                                                  [image] — "YouTube Opens in new window"
+                                          [none]
+                                            [list]
+                                              [listitem]
+                                                [link] — "Email Opens in new window"
+                                                  [image] — "Email Opens in new window"
+                                          [none]
+                                            [list]
+                                    [none]
+                          [generic]
+                            [generic]
+                              [generic]
+                                [generic]
+                          [generic]
+                            [generic]
+                              [generic]
+                                [none]
+                                  [region] — "CONTACT US"
+                                    [sectionheader]
+                                      [none]
+                                        [heading] — "CONTACT US"
+                                          [StaticText] — "CONTACT US"
+                                            [InlineTextBox]
+                                    [none]
+                                      [generic]
+                                        [none]
+                                          [list]
+                                            [listitem]
+                                              [paragraph]
+                                                [StaticText] — "11 Uptown Circle"
+                                                  [InlineTextBox]
+                                            [listitem]
+                                              [paragraph]
+                                                [StaticText] — "P.O. Box 589"
+                                                  [InlineTextBox]
+                                            [listitem]
+                                              [paragraph]
+                                                [StaticText] — "Normal, IL 61761"
+                                                  [InlineTextBox]
+                                            [listitem]
+                                              [paragraph]
+                                                [StaticText] — "Phone: "
+                                                  [InlineTextBox]
+                                                [link] — "309-454-2444"
+                                                  [StaticText] — "309-454-2444"
+                                                    [InlineTextBox]
+                                            [listitem]
+                                              [paragraph]
+                                                [link] — "Connect with us"
+                                                  [strong]
+                                                    [StaticText] — "Connect with us"
+                                                      [InlineTextBox]
+                                              [paragraph]
+                                                [LineBreak] — "
+"
+                                                  [InlineTextBox]
+                                            [listitem]
+                                              [paragraph]
+                                                [StaticText] — "City Hall Hours"
+                                                  [InlineTextBox]
+                                            [listitem]
+                                              [paragraph]
+                                                [StaticText] — "Monday through Friday 8:30 a.m. to 5 p.m."
+                                                  [InlineTextBox]
+                                    [none]
+                          [generic]
+                            [generic]
+                              [generic]
+                                [generic]
+                          [generic]
+                            [generic]
+                              [generic]
+                                [none]
+                                  [region] — "POPULAR LINKS"
+                                    [sectionheader]
+                                      [none]
+                                        [heading] — "POPULAR LINKS"
+                                          [link] — "POPULAR LINKS"
+                                            [StaticText] — "POPULAR LINKS"
+                                              [InlineTextBox]
+                                    [none]
+                                      [generic]
+                                        [none]
+                                          [list]
+                                            [listitem]
+                                              [link] — "Annual Report (PDF) Opens in new window"
+                                                [StaticText] — "Annual Report (PDF)"
+                                                  [InlineTextBox]
+                                              [none]
+                                            [listitem]
+                                              [link] — "Social Media Disclaimer"
+                                                [StaticText] — "Social Media Disclaimer"
+                                                  [InlineTextBox]
+                                              [none]
+                                            [listitem]
+                                              [link] — "Staff Directory Opens in new window"
+                                                [StaticText] — "Staff Directory"
+                                                  [InlineTextBox]
+                                              [none]
+                                            [listitem]
+                                              [link] — "Strategic Plan (PDF) Opens in new window"
+                                                [StaticText] — "Strategic Plan (PDF)"
+                                                  [InlineTextBox]
+                                              [none]
+                                            [listitem]
+                                              [link] — "Normal Forum Opens in new window"
+                                                [StaticText] — "Normal Forum"
+                                                  [InlineTextBox]
+                                              [none]
+                                            [listitem]
+                                              [link] — "View Live Council Meeting Opens in new window"
+                                                [StaticText] — "View Live Council Meeting"
+                                                  [InlineTextBox]
+                                              [none]
+                                    [none]
+                          [generic]
+                            [generic]
+                              [generic]
+                                [generic]
+                          [generic]
+                            [generic]
+                              [generic]
+                                [none]
+                                  [region] — "TOWN BUSINESS"
+                                    [sectionheader]
+                                      [none]
+                                        [heading] — "TOWN BUSINESS"
+                                          [link] — "TOWN BUSINESS"
+                                            [StaticText] — "TOWN BUSINESS"
+                                              [InlineTextBox]
+                                    [none]
+                                      [generic]
+                                        [none]
+                                          [list]
+                                            [listitem]
+                                              [link] — "Town of Normal Newsletters Opens in new window"
+                                                [StaticText] — "Town of Normal Newsletters"
+                                                  [InlineTextBox]
+                                              [none]
+                                            [listitem]
+                                              [link] — "Bids Opens in new window"
+                                                [StaticText] — "Bids"
+                                                  [InlineTextBox]
+                                              [none]
+                                            [listitem]
+                                              [link] — "Forms Opens in new window"
+                                                [StaticText] — "Forms"
+                                                  [InlineTextBox]
+                                              [none]
+                                            [listitem]
+                                              [link] — "Online Payments Opens in new window"
+                                                [StaticText] — "Online Payments"
+                                                  [InlineTextBox]
+                                              [none]
+                                    [none]
+                [generic]
+                  [generic]
+                    [generic]
+                      [generic]
+                        [generic]
+                          [generic]
+                            [generic]
+                              [generic]
+                                [generic]
+                                  [generic]
+                                    [generic]
+                                      [none]
+                                        [generic]
+                                          [image]
+                                          [StaticText] — "Government Websites by "
+                                            [InlineTextBox]
+                                          [link] — "CivicPlus®"
+                                            [StaticText] — "CivicPlus®"
+                                              [InlineTextBox]
+        [generic]
+          [none]
+      [generic]
+      [none]
+        [none]
+      [none]
+        [none]
+      [generic]
+      [generic]
+        [generic]
+          [none]
+            [generic]
+              [combobox] — "Language Translate Widget"
+                [MenuListPopup]
+                  [option] — "Select Language"
+                  [option] — "Abkhaz"
+                  [option] — "Acehnese"
+                  [option] — "Acholi"
+                  [option] — "Afar"
+                  [option] — "Afrikaans"
+                  [option] — "Albanian"
+                  [option] — "Alur"
+                  [option] — "Amharic"
+                  [option] — "Arabic"
+                  [option] — "Armenian"
+                  [option] — "Assamese"
+                  [option] — "Avar"
+                  [option] — "Awadhi"
+                  [option] — "Aymara"
+                  [option] — "Azerbaijani"
+                  [option] — "Balinese"
+                  [option] — "Baluchi"
+                  [option] — "Bambara"
+                  [option] — "Baoulé"
+                  [option] — "Bashkir"
+                  [option] — "Basque"
+                  [option] — "Batak Karo"
+                  [option] — "Batak Simalungun"
+                  [option] — "Batak Toba"
+                  [option] — "Belarusian"
+                  [option] — "Bemba"
+                  [option] — "Bengali"
+                  [option] — "Betawi"
+                  [option] — "Bhojpuri"
+                  [option] — "Bikol"
+                  [option] — "Bosnian"
+                  [option] — "Breton"
+                  [option] — "Bulgarian"
+                  [option] — "Buryat"
+                  [option] — "Cantonese"
+                  [option] — "Catalan"
+                  [option] — "Cebuano"
+                  [option] — "Chamorro"
+                  [option] — "Chechen"
+                  [option] — "Chichewa"
+                  [option] — "Chinese (Simplified)"
+                  [option] — "Chinese (Traditional)"
+                  [option] — "Chuukese"
+                  [option] — "Chuvash"
+                  [option] — "Corsican"
+                  [option] — "Crimean Tatar (Cyrillic)"
+                  [option] — "Crimean Tatar (Latin)"
+                  [option] — "Croatian"
+                  [option] — "Czech"
+                  [option] — "Danish"
+                  [option] — "Dari"
+                  [option] — "Dhivehi"
+                  [option] — "Dinka"
+                  [option] — "Dogri"
+                  [option] — "Dombe"
+                  [option] — "Dutch"
+                  [option] — "Dyula"
+                  [option] — "Dzongkha"
+                  [option] — "Esperanto"
+                  [option] — "Estonian"
+                  [option] — "Ewe"
+                  [option] — "Faroese"
+                  [option] — "Fijian"
+                  [option] — "Filipino"
+                  [option] — "Finnish"
+                  [option] — "Fon"
+                  [option] — "French"
+                  [option] — "French (Canada)"
+                  [option] — "Frisian"
+                  [option] — "Friulian"
+                  [option] — "Fulani"
+                  [option] — "Ga"
+                  [option] — "Galician"
+                  [option] — "Georgian"
+                  [option] — "German"
+                  [option] — "Greek"
+                  [option] — "Guarani"
+                  [option] — "Gujarati"
+                  [option] — "Haitian Creole"
+                  [option] — "Hakha Chin"
+                  [option] — "Hausa"
+                  [option] — "Hawaiian"
+                  [option] — "Hebrew"
+                  [option] — "Hiligaynon"
+                  [option] — "Hindi"
+                  [option] — "Hmong"
+                  [option] — "Hungarian"
+                  [option] — "Hunsrik"
+                  [option] — "Iban"
+                  [option] — "Icelandic"
+                  [option] — "Igbo"
+                  [option] — "Ilocano"
+                  [option] — "Indonesian"
+                  [option] — "Inuktut (Latin)"
+                  [option] — "Inuktut (Syllabics)"
+                  [option] — "Irish"
+                  [option] — "Italian"
+                  [option] — "Jamaican Patois"
+                  [option] — "Japanese"
+                  [option] — "Javanese"
+                  [option] — "Jingpo"
+                  [option] — "Kalaallisut"
+                  [option] — "Kannada"
+                  [option] — "Kanuri"
+                  [option] — "Kapampangan"
+                  [option] — "Kazakh"
+                  [option] — "Khasi"
+                  [option] — "Khmer"
+                  [option] — "Kiga"
+                  [option] — "Kikongo"
+                  [option] — "Kinyarwanda"
+                  [option] — "Kituba"
+                  [option] — "Kokborok"
+                  [option] — "Komi"
+                  [option] — "Konkani"
+                  [option] — "Korean"
+                  [option] — "Krio"
+                  [option] — "Kurdish (Kurmanji)"
+                  [option] — "Kurdish (Sorani)"
+                  [option] — "Kyrgyz"
+                  [option] — "Lao"
+                  [option] — "Latgalian"
+                  [option] — "Latin"
+                  [option] — "Latvian"
+                  [option] — "Ligurian"
+                  [option] — "Limburgish"
+                  [option] — "Lingala"
+                  [option] — "Lithuanian"
+                  [option] — "Lombard"
+                  [option] — "Luganda"
+                  [option] — "Luo"
+                  [option] — "Luxembourgish"
+                  [option] — "Macedonian"
+                  [option] — "Madurese"
+                  [option] — "Maithili"
+                  [option] — "Makassar"
+                  [option] — "Malagasy"
+                  [option] — "Malay"
+                  [option] — "Malay (Jawi)"
+                  [option] — "Malayalam"
+                  [option] — "Maltese"
+                  [option] — "Mam"
+                  [option] — "Manx"
+                  [option] — "Maori"
+                  [option] — "Marathi"
+                  [option] — "Marshallese"
+                  [option] — "Marwadi"
+                  [option] — "Mauritian Creole"
+                  [option] — "Meadow Mari"
+                  [option] — "Meiteilon (Manipuri)"
+                  [option] — "Minang"
+                  [option] — "Mizo"
+                  [option] — "Mongolian"
+                  [option] — "Myanmar (Burmese)"
+                  [option] — "Nahuatl (Eastern Huasteca)"
+                  [option] — "Ndau"
+                  [option] — "Ndebele (South)"
+                  [option] — "Nepalbhasa (Newari)"
+                  [option] — "Nepali"
+                  [option] — "NKo"
+                  [option] — "Norwegian"
+                  [option] — "Nuer"
+                  [option] — "Occitan"
+                  [option] — "Odia (Oriya)"
+                  [option] — "Oromo"
+                  [option] — "Ossetian"
+                  [option] — "Pangasinan"
+                  [option] — "Papiamento"
+                  [option] — "Pashto"
+                  [option] — "Persian"
+                  [option] — "Polish"
+                  [option] — "Portuguese (Brazil)"
+                  [option] — "Portuguese (Portugal)"
+                  [option] — "Punjabi (Gurmukhi)"
+                  [option] — "Punjabi (Shahmukhi)"
+                  [option] — "Quechua"
+                  [option] — "Qʼeqchiʼ"
+                  [option] — "Romani"
+                  [option] — "Romanian"
+                  [option] — "Rundi"
+                  [option] — "Russian"
+                  [option] — "Sami (North)"
+                  [option] — "Samoan"
+                  [option] — "Sango"
+                  [option] — "Sanskrit"
+                  [option] — "Santali (Latin)"
+                  [option] — "Santali (Ol Chiki)"
+                  [option] — "Scots Gaelic"
+                  [option] — "Sepedi"
+                  [option] — "Serbian"
+                  [option] — "Sesotho"
+                  [option] — "Seychellois Creole"
+                  [option] — "Shan"
+                  [option] — "Shona"
+                  [option] — "Sicilian"
+                  [option] — "Silesian"
+                  [option] — "Sindhi"
+                  [option] — "Sinhala"
+                  [option] — "Slovak"
+                  [option] — "Slovenian"
+                  [option] — "Somali"
+                  [option] — "Spanish"
+                  [option] — "Sundanese"
+                  [option] — "Susu"
+                  [option] — "Swahili"
+                  [option] — "Swati"
+                  [option] — "Swedish"
+                  [option] — "Tahitian"
+                  [option] — "Tajik"
+                  [option] — "Tamazight"
+                  [option] — "Tamazight (Tifinagh)"
+                  [option] — "Tamil"
+                  [option] — "Tatar"
+                  [option] — "Telugu"
+                  [option] — "Tetum"
+                  [option] — "Thai"
+                  [option] — "Tibetan"
+                  [option] — "Tigrinya"
+                  [option] — "Tiv"
+                  [option] — "Tok Pisin"
+                  [option] — "Tongan"
+                  [option] — "Tshiluba"
+                  [option] — "Tsonga"
+                  [option] — "Tswana"
+                  [option] — "Tulu"
+                  [option] — "Tumbuka"
+                  [option] — "Turkish"
+                  [option] — "Turkmen"
+                  [option] — "Tuvan"
+                  [option] — "Twi"
+                  [option] — "Udmurt"
+                  [option] — "Ukrainian"
+                  [option] — "Urdu"
+                  [option] — "Uyghur"
+                  [option] — "Uzbek"
+                  [option] — "Venda"
+                  [option] — "Venetian"
+                  [option] — "Vietnamese"
+                  [option] — "Waray"
+                  [option] — "Welsh"
+                  [option] — "Wolof"
+                  [option] — "Xhosa"
+                  [option] — "Yakut"
+                  [option] — "Yiddish"
+                  [option] — "Yoruba"
+                  [option] — "Yucatec Maya"
+                  [option] — "Zapotec"
+                  [option] — "Zulu"
+            [StaticText] — "Powered by "
+              [InlineTextBox]
+            [link] — "Google Translate Translate"
+              [image] — "Google Translate"
+              [StaticText] — "Translate"
+                [InlineTextBox]
+      [generic]
+      [generic]
+        [generic]
+          [Iframe] — "Chat Bot"
+          [generic]
+            [paragraph]
+              [StaticText] — "Hi, how can I help?"
+                [InlineTextBox]
+            [button] — "close greeting"
+      [status]
+      [none]
+      [none]
+      [none]
+      [none]
+      [none]
+      [none]
+      [none]
+      [none]
+      [none]
+      [none]
+      [none]
+      [generic]
+        [none]
+          [image]
+      [none]
+      [none]
+      [button] — "PageAssist Discover your personalization options"
+        [generic]
+          [StaticText] — "PageAssist"
+            [InlineTextBox]
+        [none]
+          [none]
+        [none]
+          [none]
+            [none]
+              [image] — "PageAssist Personalization Options"

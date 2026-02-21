@@ -4,7 +4,7 @@
   "description": "Example project demonstrating accessibility testing with @axe-core/puppeteer",
   "main": "index.js",
   "scripts": {
-    "test": "jest"
+    "test": "jest --verbose"
   },
   "author": "Your Name",
   "license": "MIT",

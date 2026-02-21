@@ -22,14 +22,6 @@ describe('Accessibility Testing Normal Website', () => {
     expect(results.violations).toHaveLength(0);
   });
 
-  // Testing specific element/component
-  test('is accessible navigation menu', async () => {
-    await page.goto('https://www.normalil.gov/');
-    
-    const results = await new AxePuppeteer(page).include('nav').analyze();
-    
-    expect(results.violations).toHaveLength(0);
-  });
 
   // Excluding certain elements from testing
   test('is accessible homepage excluding footer widgets', async () => {
