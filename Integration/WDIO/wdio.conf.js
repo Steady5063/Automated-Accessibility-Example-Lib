@@ -1,7 +1,7 @@
 exports.config = {
     runner: 'local',
     specs: [
-        './**.spec.js'
+        './tests/**.spec.js'
     ],
     capabilities: [{
         browserName: 'chrome',
