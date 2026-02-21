@@ -1,0 +1,19 @@
+{
+  "name": "wdio-accessibility-example",
+  "version": "1.0.0",
+  "description": "Example WDIO accessibility testing integration",
+  "license": "ISC",
+  "author": "Mark Steadman",
+  "scripts": {
+    "test": "wdio run wdio.conf.js"
+  },
+  "devDependencies": {
+    "@axe-core/webdriverio": "^4.11.1",
+    "@wdio/cli": "^8.27.0",
+    "@wdio/local-runner": "^8.27.0",
+    "@wdio/mocha-framework": "^8.27.0",
+    "@wdio/spec-reporter": "^8.27.0",
+    "chromedriver": "^145.0.5",
+    "wdio-chromedriver-service": "^8.1.1"
+  }
+}
