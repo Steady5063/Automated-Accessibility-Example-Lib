@@ -6,16 +6,17 @@ describe('Accessibility Testing with Axe - Normal, IL Government Site', () => {
     
     beforeEach(async () => {
         await browser.url('https://www.normalil.gov/');
-    
         axe = new AxeBuilder({ client: browser });
     });
     
+    // Basic full page accessibility scan
     it('should have no accessibility violations on homepage', async () => {
         const results = await axe.analyze();
-        
+
         expect(results.violations).toHaveLength(0);
     });
     
+    // Testing specific element/component
     it('should have no accessibility violations on a specific element', async () => {
         await browser.url('https://www.normalil.gov/');
         
@@ -24,6 +25,7 @@ describe('Accessibility Testing with Axe - Normal, IL Government Site', () => {
         expect(results.violations).toHaveLength(0);
     });
     
+    // Testing specific rule
     it('should check for specific accessibility rules', async () => {
         await browser.url('https://www.normalil.gov/');
         
