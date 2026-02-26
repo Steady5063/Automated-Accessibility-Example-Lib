@@ -1,7 +1,7 @@
-# Accessibility Testing with @axe-core/puppeteer
+# Accessibility Testing with @axe-core/webdriverio
 
 <div align="center">
-  <img src="https://user-images.githubusercontent.com/10379601/29446482-04f7036a-841f-11e7-9872-91d1fc2ea683.png" alt="Puppeteer Logo" width="200">
+  <img src="https://user-images.githubusercontent.com/10379601/29446482-04f7036a-841f-11e7-9872-91d1fc2ea683.png" alt="WDIO Logo" width="200">
   <br>
   <p><em>Automated accessibility testing using WDIO and axe-core and Accessibility selectors</em></p>
 </div>
