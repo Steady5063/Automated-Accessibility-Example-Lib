@@ -16,6 +16,36 @@
             padding: 2rem;
             line-height: 1.6;
         }
+
+        .skip-link {
+            position: absolute;
+            top: 1rem;
+            left: 1rem;
+            padding: 0.75rem 1rem;
+            background: #1b1f23;
+            color: #fff;
+            text-decoration: none;
+            border-radius: 4px;
+            transform: translateY(-200%);
+        }
+
+        .skip-link:focus {
+            transform: translateY(0);
+            outline: 3px solid #f39c12;
+            outline-offset: 2px;
+        }
+
+        nav ul {
+            display: flex;
+            gap: 1rem;
+            padding: 0;
+            margin: 0 0 2rem;
+            list-style: none;
+        }
+
+        nav a {
+            color: #1d4f91;
+        }
         
         h1 {
             color: #2c3e50;
@@ -135,37 +165,47 @@
     </style>
 </head>
 <body>
-    <h1>Accessibility Testing Demo Page</h1>
-    <p>This page demonstrates various accessibility patterns for testing with Playwright.</p>
-    
-    <!-- Accordion Section -->
-    <div class="section">
-        <h2>Accordion with ARIA</h2>
-        <button 
-            id="accordion-trigger"
-            class="accordion-button" 
-            aria-expanded="false"
-            aria-controls="accordion-content"
-        >
-            Click to expand/collapse
-        </button>
-        <div 
-            id="accordion-content" 
-            class="accordion-content hidden"
-            role="region"
-            aria-labelledby="accordion-trigger"
-        >
-            <p>This is the accordion content. It should be hidden when aria-expanded is false and visible when true.</p>
-            <p>You can test that the aria-expanded attribute changes correctly.</p>
+    <a class="skip-link" href="#main-content">Skip to main content</a>
+    <nav aria-label="Primary">
+        <ul>
+            <li><a href="#accordion-section">Accordion</a></li>
+            <li><a href="#modal-section">Modal</a></li>
+        </ul>
+    </nav>
+
+    <main id="main-content" tabindex="-1">
+        <h1>Accessibility Testing Demo Page</h1>
+        <p>This page demonstrates various accessibility patterns for testing with Playwright.</p>
+        
+        <!-- Accordion Section -->
+        <div id="accordion-section" class="section">
+            <h2>Accordion with ARIA</h2>
+            <button 
+                id="accordion-trigger"
+                class="accordion-button" 
+                aria-expanded="false"
+                aria-controls="accordion-content"
+            >
+                Click to expand/collapse
+            </button>
+            <div 
+                id="accordion-content" 
+                class="accordion-content hidden"
+                role="region"
+                aria-labelledby="accordion-trigger"
+            >
+                <p>This is the accordion content. It should be hidden when aria-expanded is false and visible when true.</p>
+                <p>You can test that the aria-expanded attribute changes correctly.</p>
+            </div>
         </div>
-    </div>
-    
-    <!-- Modal Section -->
-    <div class="section">
-        <h2>Modal Dialog</h2>
-        <p>The modal should trap focus and return it to the trigger button when closed.</p>
-        <button id="open-modal">Open Modal</button>
-    </div>
+        
+        <!-- Modal Section -->
+        <div id="modal-section" class="section">
+            <h2>Modal Dialog</h2>
+            <p>The modal should trap focus and return it to the trigger button when closed.</p>
+            <button id="open-modal">Open Modal</button>
+        </div>
+    </main>
     
     <!-- Modal Template -->
     <div id="modal-overlay" class="hidden" aria-labelledby="modal-title">

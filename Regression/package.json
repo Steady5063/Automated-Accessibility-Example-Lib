@@ -11,7 +11,7 @@
     "@playwright/test": "^1.51.0"
   },
   "scripts": {
-    "test": "npx playwright test"
+    "test": "npx playwright test --headed"
   },
   "dependencies": {
     "playwright": "^1.57.0"

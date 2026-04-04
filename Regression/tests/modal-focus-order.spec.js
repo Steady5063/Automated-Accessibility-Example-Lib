@@ -34,6 +34,8 @@ test.describe('Modal Focus Order', () => {
     await expect(modalTrigger).toBeFocused();
   });
 
+  //TODO: Need to make a test that makes sure focus stays in the modal and does not go into the background 
+  // in browse mode with screen reader on too.
   test('should trap focus inside modal with Tab and Shift+Tab', async ({ page }) => {
     await page.goto(`file://${pagePath}`);
 
