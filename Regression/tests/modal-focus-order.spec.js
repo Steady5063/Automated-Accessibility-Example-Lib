@@ -4,6 +4,8 @@ const path = require('path');
 test.describe('Modal Focus Order', () => {
   const pagePath = path.join(process.cwd(), 'a11y-test-page.html');
 
+
+  //Opening the focus, ensuring keyboard focus is put directly into the modal
   test('should move focus into modal on open', async ({ page }) => {
     await page.goto(`file://${pagePath}`);
 
@@ -17,6 +19,7 @@ test.describe('Modal Focus Order', () => {
     await expect(modalTitle).toBeFocused();
   });
 
+  //Opening the modal, then returning focus back to the trigger it came from
   test('should return focus to trigger when modal closes', async ({ page }) => {
     await page.goto(`file://${pagePath}`);
 
@@ -27,15 +30,15 @@ test.describe('Modal Focus Order', () => {
     await modalTrigger.focus();
     await expect(modalTrigger).toBeFocused();
 
-    await modalTrigger.click();
+    await modalTrigger.press('Enter');
     await expect(modalTitle).toBeFocused();
 
-    await modalClose.click();
+    await modalClose.press('Enter');
     await expect(modalTrigger).toBeFocused();
   });
 
-  //TODO: Need to make a test that makes sure focus stays in the modal and does not go into the background 
-  // in browse mode with screen reader on too.
+  //Test that ensures focus stays trapped within the modal with shift+tab
+  //TODO: adding in arrow keys as well
   test('should trap focus inside modal with Tab and Shift+Tab', async ({ page }) => {
     await page.goto(`file://${pagePath}`);
 
