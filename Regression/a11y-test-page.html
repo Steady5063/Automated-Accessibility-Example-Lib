@@ -41,10 +41,53 @@
             padding: 0;
             margin: 0 0 2rem;
             list-style: none;
+            flex-wrap: wrap;
+            align-items: flex-start;
         }
 
         nav a {
             color: #1d4f91;
+        }
+
+        nav li {
+            position: relative;
+        }
+
+        .nav-dropdown-button {
+            background: transparent;
+            color: #1d4f91;
+            border: 1px solid #1d4f91;
+            padding: 0.5rem 0.75rem;
+        }
+
+        .nav-dropdown-button:hover {
+            background: #e8f0fb;
+        }
+
+        .nav-dropdown-button::after {
+            content: '▼';
+            display: inline-block;
+            margin-left: 0.5rem;
+            font-size: 0.75rem;
+        }
+
+        .nav-dropdown-button[aria-expanded="true"]::after {
+            transform: rotate(180deg);
+        }
+
+        .nav-submenu {
+            margin-top: 0.75rem;
+            padding: 0.75rem;
+            border: 1px solid #c9d7ea;
+            border-radius: 6px;
+            background: #f7faff;
+            display: grid;
+            gap: 0.5rem;
+            min-width: 180px;
+        }
+
+        .nav-submenu a {
+            display: inline-block;
         }
         
         h1 {
@@ -170,6 +213,24 @@
         <ul>
             <li><a href="#accordion-section">Accordion</a></li>
             <li><a href="#modal-section">Modal</a></li>
+            <li><a href="#">Resources</a></li>
+            <li><a href="#">Support</a></li>
+            <li>
+                <button
+                    id="more-menu-button"
+                    class="nav-dropdown-button"
+                    type="button"
+                    aria-expanded="false"
+                    aria-controls="more-menu"
+                >
+                    More
+                </button>
+                <ul id="more-menu" class="nav-submenu hidden">
+                    <li><a href="#">Guides</a></li>
+                    <li><a href="#">Examples</a></li>
+                    <li><a href="#">Contact</a></li>
+                </ul>
+            </li>
         </ul>
     </nav>
 
@@ -222,11 +283,19 @@
         // Accordion functionality
         const accordionTrigger = document.getElementById('accordion-trigger');
         const accordionContent = document.getElementById('accordion-content');
+        const moreMenuButton = document.getElementById('more-menu-button');
+        const moreMenu = document.getElementById('more-menu');
         
         accordionTrigger.addEventListener('click', () => {
             const isExpanded = accordionTrigger.getAttribute('aria-expanded') === 'true';
             accordionTrigger.setAttribute('aria-expanded', !isExpanded);
             accordionContent.classList.toggle('hidden');
+        });
+
+        moreMenuButton.addEventListener('click', () => {
+            const isExpanded = moreMenuButton.getAttribute('aria-expanded') === 'true';
+            moreMenuButton.setAttribute('aria-expanded', String(!isExpanded));
+            moreMenu.classList.toggle('hidden');
         });
         
         // Modal functionality
