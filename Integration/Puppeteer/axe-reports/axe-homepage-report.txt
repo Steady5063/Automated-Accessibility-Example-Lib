@@ -1,0 +1,1404 @@
+Report Date: 2026-05-25T01:32:16.262Z
+
+Expected the HTML found at $('.slide3.clone[data-index="3"] > .text > h4') to have no violations:
+
+Issue Description: Heading levels should only increase by one (heading-order)
+
+HTML:
+
+<h4 id="newsFlashItemHeader3237" class="widgetTitle">
+		<a href="/CivicAlerts.aspx?AID=3237" target="_self">Town of Normal launches online store celebrating Route 66 Centennial </a>
+	</h4>
+
+Fix any of the following:
+  Heading order invalid
+
+You can find more information on this issue here: 
+
+https://dequeuniversity.com/rules/axe/4.10/heading-order?application=axe-puppeteer
+
+
+
+Expected the HTML found at $('#miniCalendarHeader5cd27e5f-781a-4bdd-b474-a45d890022c6') to have no violations:
+
+Issue Description: Heading levels should only increase by one (heading-order)
+
+HTML:
+
+<span class="cp-miniCalendar-title" id="miniCalendarHeader5cd27e5f-781a-4bdd-b474-a45d890022c6" role="heading" aria-level="3">May 2026</span>
+
+Fix any of the following:
+  Heading order invalid
+
+You can find more information on this issue here: 
+
+https://dequeuniversity.com/rules/axe/4.10/heading-order?application=axe-puppeteer
+
+
+
+-------------------------------------------------------------
+
+Expected the HTML found at $('#mainNav') to have no violations:
+
+Issue Description: Landmarks should have a unique role or role/label/title (i.e. accessible name) combination (landmark-unique)
+
+HTML:
+
+<nav data-cprole="nav" id="mainNav" class="siteNav mainNav" role="navigation">
+
+Fix any of the following:
+  The landmark must have a unique aria-label, aria-labelledby, or title to make landmarks distinguishable
+
+You can find more information on this issue here: 
+
+https://dequeuniversity.com/rules/axe/4.10/landmark-unique?application=axe-puppeteer
+
+
+
+Expected the HTML found at $('#divInfoAdvb166a61e-8256-4219-aca0-fa83fd847c30') to have no violations:
+
+Issue Description: Landmarks should have a unique role or role/label/title (i.e. accessible name) combination (landmark-unique)
+
+HTML:
+
+<section id="divInfoAdvb166a61e-8256-4219-aca0-fa83fd847c30" class="widget widgetInfoAdvanced skin34 widgetOptionSet5 wide" data-modulewidgettype="infoAdv" data-elementqueryclasses="{&quot;wide-narrow&quot;:&quot;min-width:25em&quot;}" data-elementquerymatch="matchMultiColumn" data-elementqueryunmatch="unmatchMultiColumn" aria-label="Info Advanced">
+
+Fix any of the following:
+  The landmark must have a unique aria-label, aria-labelledby, or title to make landmarks distinguishable
+
+You can find more information on this issue here: 
+
+https://dequeuniversity.com/rules/axe/4.10/landmark-unique?application=axe-puppeteer
+
+
+
+-------------------------------------------------------------
+
+Expected the HTML found at $('.slide1 > a[href="/CivicAlerts.aspx?AID=3240"][target="_self"]') to have no violations:
+
+Issue Description: Links must have discernible text (link-name)
+
+HTML:
+
+<a href="/CivicAlerts.aspx?AID=3240" target="_self"><img class="media" src="/ImageRepository/Document?documentID=24507" alt="" data-delayed-image=""></a>
+
+Fix all of the following:
+  Element is in tab order and does not have accessible text
+
+Fix any of the following:
+  Element does not have text that is visible to screen readers
+  aria-label attribute does not exist or is empty
+  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty
+  Element has no title attribute
+
+You can find more information on this issue here: 
+
+https://dequeuniversity.com/rules/axe/4.10/link-name?application=axe-puppeteer
+
+
+
+-------------------------------------------------------------
+
+Expected the HTML found at $('.tabbedWidgetNarrow.cpTabs[aria-hidden="false"]:nth-child(1)') to have no violations:
+
+Issue Description: All page content should be contained by landmarks (region)
+
+HTML:
+
+<ol class="tabbedWidgetNarrow cpTabs " role="tablist" aria-hidden="false" style="">
+
+Fix any of the following:
+  Some page content is not contained by landmarks
+
+You can find more information on this issue here: 
+
+https://dequeuniversity.com/rules/axe/4.10/region?application=axe-puppeteer
+
+
+
+Expected the HTML found at $('.tabbedWidgetNarrow.cpTabs[aria-hidden="false"]:nth-child(3)') to have no violations:
+
+Issue Description: All page content should be contained by landmarks (region)
+
+HTML:
+
+<ol class="tabbedWidgetNarrow cpTabs " role="tablist" aria-hidden="false" style="">
+
+Fix any of the following:
+  Some page content is not contained by landmarks
+
+You can find more information on this issue here: 
+
+https://dequeuniversity.com/rules/axe/4.10/region?application=axe-puppeteer
+
+
+
+Expected the HTML found at $('.tabbedWidgetNarrow.cpTabs[aria-hidden="false"]:nth-child(5)') to have no violations:
+
+Issue Description: All page content should be contained by landmarks (region)
+
+HTML:
+
+<ol class="tabbedWidgetNarrow cpTabs " role="tablist" aria-hidden="false" style="">
+
+Fix any of the following:
+  Some page content is not contained by landmarks
+
+You can find more information on this issue here: 
+
+https://dequeuniversity.com/rules/axe/4.10/region?application=axe-puppeteer
+
+
+
+Expected the HTML found at $('.tabbedWidget.cpTabs[aria-hidden="false"]') to have no violations:
+
+Issue Description: All page content should be contained by landmarks (region)
+
+HTML:
+
+<ol class="tabbedWidget cpTabs  " role="tablist" aria-hidden="false" style="">
+
+Fix any of the following:
+  Some page content is not contained by landmarks
+
+You can find more information on this issue here: 
+
+https://dequeuniversity.com/rules/axe/4.10/region?application=axe-puppeteer
+
+
+
+Expected the HTML found at $('#tab051cb1c3-75f7-426a-9798-0ae8a26210ce_0') to have no violations:
+
+Issue Description: All page content should be contained by landmarks (region)
+
+HTML:
+
+<div class="tabbedWidget cpTabPanel showing" style="" id="tab051cb1c3-75f7-426a-9798-0ae8a26210ce_0" role="tabpanel" aria-labelledby="tabBtn051cb1c3-75f7-426a-9798-0ae8a26210ce_0" tabindex="-1">
+
+Fix any of the following:
+  Some page content is not contained by landmarks
+
+You can find more information on this issue here: 
+
+https://dequeuniversity.com/rules/axe/4.10/region?application=axe-puppeteer
+
+
+
+Expected the HTML found at $('.cpBylineTextTS') to have no violations:
+
+Issue Description: All page content should be contained by landmarks (region)
+
+HTML:
+
+<span class="cpBylineTextTS">Government Websites by <a href="https://connect.civicplus.com/referral">CivicPlus®</a></span>
+
+Fix any of the following:
+  Some page content is not contained by landmarks
+
+You can find more information on this issue here: 
+
+https://dequeuniversity.com/rules/axe/4.10/region?application=axe-puppeteer
+
+
+
+Expected the HTML found at $('#google-translate-container') to have no violations:
+
+Issue Description: All page content should be contained by landmarks (region)
+
+HTML:
+
+<div id="google-translate-container">
+
+Fix any of the following:
+  Some page content is not contained by landmarks
+
+You can find more information on this issue here: 
+
+https://dequeuniversity.com/rules/axe/4.10/region?application=axe-puppeteer
+
+
+
+-------------------------------------------------------------
+
+HTML found at $('#mainNavMegaMenu27') needs to be reviewed:
+
+Issue Description: ARIA role should be appropriate for the element (aria-allowed-role)
+
+HTML: <aside role="menu" data-cprole="contentContainer" id="mainNavMegaMenu27" class="contentTop mainNavMegaMenu megaMenuContainer pageID_27 moved megaMenu" data-orientation="horizontal" style="display: none; position: absolute; z-index: 100; left: 15.1875px; width: 769.625px; top: 203.484px;">
+
+Fix any of the following:
+  ARIA role menu must be removed when the element is made visible, as it is not allowed for the element
+
+You can find more information on this issue here: 
+
+https://dequeuniversity.com/rules/axe/4.10/aria-allowed-role?application=axe-puppeteer
+
+
+
+HTML found at $('#mainNavMegaMenu1136') needs to be reviewed:
+
+Issue Description: ARIA role should be appropriate for the element (aria-allowed-role)
+
+HTML: <aside role="menu" data-cprole="contentContainer" id="mainNavMegaMenu1136" class="contentTop mainNavMegaMenu megaMenuContainer pageID_1136 moved megaMenu" data-orientation="horizontal" style="display: none; position: absolute; z-index: 100; left: 15.1875px; width: 769.625px; top: 203.484px;">
+
+Fix any of the following:
+  ARIA role menu must be removed when the element is made visible, as it is not allowed for the element
+
+You can find more information on this issue here: 
+
+https://dequeuniversity.com/rules/axe/4.10/aria-allowed-role?application=axe-puppeteer
+
+
+
+HTML found at $('#mainNavMegaMenu31') needs to be reviewed:
+
+Issue Description: ARIA role should be appropriate for the element (aria-allowed-role)
+
+HTML: <aside role="menu" data-cprole="contentContainer" id="mainNavMegaMenu31" class="contentTop mainNavMegaMenu megaMenuContainer pageID_31 moved megaMenu" data-orientation="horizontal" style="display: none; position: absolute; z-index: 100; left: 15.1875px; width: 769.625px; top: 203.484px;">
+
+Fix any of the following:
+  ARIA role menu must be removed when the element is made visible, as it is not allowed for the element
+
+You can find more information on this issue here: 
+
+https://dequeuniversity.com/rules/axe/4.10/aria-allowed-role?application=axe-puppeteer
+
+
+
+HTML found at $('#mainNavMegaMenu35') needs to be reviewed:
+
+Issue Description: ARIA role should be appropriate for the element (aria-allowed-role)
+
+HTML: <aside role="menu" data-cprole="contentContainer" id="mainNavMegaMenu35" class="contentTop mainNavMegaMenu megaMenuContainer pageID_35 moved megaMenu" data-orientation="horizontal" style="display: none; position: absolute; z-index: 100; left: 15.1875px; width: 769.625px; top: 203.484px;">
+
+Fix any of the following:
+  ARIA role menu must be removed when the element is made visible, as it is not allowed for the element
+
+You can find more information on this issue here: 
+
+https://dequeuniversity.com/rules/axe/4.10/aria-allowed-role?application=axe-puppeteer
+
+
+
+HTML found at $('#mainNavMegaMenu1132') needs to be reviewed:
+
+Issue Description: ARIA role should be appropriate for the element (aria-allowed-role)
+
+HTML: <aside role="menu" data-cprole="contentContainer" id="mainNavMegaMenu1132" class="contentTop mainNavMegaMenu megaMenuContainer pageID_1132 moved megaMenu" data-orientation="horizontal" style="display: none; position: absolute; z-index: 100; left: 15.1875px; width: 769.625px; top: 203.484px;">
+
+Fix any of the following:
+  ARIA role menu must be removed when the element is made visible, as it is not allowed for the element
+
+You can find more information on this issue here: 
+
+https://dequeuniversity.com/rules/axe/4.10/aria-allowed-role?application=axe-puppeteer
+
+
+
+HTML found at $('#mainNavMegaMenu1542') needs to be reviewed:
+
+Issue Description: ARIA role should be appropriate for the element (aria-allowed-role)
+
+HTML: <aside role="menu" data-cprole="contentContainer" id="mainNavMegaMenu1542" class="contentTop mainNavMegaMenu megaMenuContainer pageID_1542 moved megaMenu" data-orientation="horizontal" style="display: none; position: absolute; z-index: 100; left: 15.1875px; width: 769.625px; top: 203.484px;">
+
+Fix any of the following:
+  ARIA role menu must be removed when the element is made visible, as it is not allowed for the element
+
+You can find more information on this issue here: 
+
+https://dequeuniversity.com/rules/axe/4.10/aria-allowed-role?application=axe-puppeteer
+
+
+
+-------------------------------------------------------------
+
+HTML found at $('#mainNavGovernment') needs to be reviewed:
+
+Issue Description: ARIA attributes must conform to valid values (aria-valid-attr-value)
+
+HTML: <a role="menuitem" aria-haspopup="true" aria-expanded="false" aria-controls="mainNavMegaMenu27" id="mainNavGovernment" class="navMainItem mainNavItem mainNavItem1 " href="/27/Government" target="_self">   Government  </a>
+
+Fix all of the following:
+  Unable to determine if aria-controls referenced ID exists on the page while using aria-haspopup: aria-controls="mainNavMegaMenu27"
+
+You can find more information on this issue here: 
+
+https://dequeuniversity.com/rules/axe/4.10/aria-valid-attr-value?application=axe-puppeteer
+
+
+
+HTML found at $('#mainNavVisitors') needs to be reviewed:
+
+Issue Description: ARIA attributes must conform to valid values (aria-valid-attr-value)
+
+HTML: <a role="menuitem" aria-haspopup="true" aria-expanded="false" aria-controls="mainNavMegaMenu1136" id="mainNavVisitors" class="navMainItem mainNavItem mainNavItem2 " href="/1136/Visitors" target="_self">   Visitors  </a>
+
+Fix all of the following:
+  Unable to determine if aria-controls referenced ID exists on the page while using aria-haspopup: aria-controls="mainNavMegaMenu1136"
+
+You can find more information on this issue here: 
+
+https://dequeuniversity.com/rules/axe/4.10/aria-valid-attr-value?application=axe-puppeteer
+
+
+
+HTML found at $('#mainNavResidents') needs to be reviewed:
+
+Issue Description: ARIA attributes must conform to valid values (aria-valid-attr-value)
+
+HTML: <a role="menuitem" aria-haspopup="true" aria-expanded="false" aria-controls="mainNavMegaMenu31" id="mainNavResidents" class="navMainItem mainNavItem mainNavItem3 " href="/31/Residents" target="_self">   Residents   </a>
+
+Fix all of the following:
+  Unable to determine if aria-controls referenced ID exists on the page while using aria-haspopup: aria-controls="mainNavMegaMenu31"
+
+You can find more information on this issue here: 
+
+https://dequeuniversity.com/rules/axe/4.10/aria-valid-attr-value?application=axe-puppeteer
+
+
+
+HTML found at $('#mainNavBusiness') needs to be reviewed:
+
+Issue Description: ARIA attributes must conform to valid values (aria-valid-attr-value)
+
+HTML: <a role="menuitem" aria-haspopup="true" aria-expanded="false" aria-controls="mainNavMegaMenu35" id="mainNavBusiness" class="navMainItem mainNavItem mainNavItem4 " href="/35/Business" target="_self">   Business  </a>
+
+Fix all of the following:
+  Unable to determine if aria-controls referenced ID exists on the page while using aria-haspopup: aria-controls="mainNavMegaMenu35"
+
+You can find more information on this issue here: 
+
+https://dequeuniversity.com/rules/axe/4.10/aria-valid-attr-value?application=axe-puppeteer
+
+
+
+HTML found at $('#mainNavIWantTo') needs to be reviewed:
+
+Issue Description: ARIA attributes must conform to valid values (aria-valid-attr-value)
+
+HTML: <a role="menuitem" aria-haspopup="true" aria-expanded="false" aria-controls="mainNavMegaMenu1132" id="mainNavIWantTo" class="navMainItem mainNavItem mainNavItem5 " href="/1132/I-Want-To" target="_self">   I Want To...  </a>
+
+Fix all of the following:
+  Unable to determine if aria-controls referenced ID exists on the page while using aria-haspopup: aria-controls="mainNavMegaMenu1132"
+
+You can find more information on this issue here: 
+
+https://dequeuniversity.com/rules/axe/4.10/aria-valid-attr-value?application=axe-puppeteer
+
+
+
+HTML found at $('#mainNavAccessibility') needs to be reviewed:
+
+Issue Description: ARIA attributes must conform to valid values (aria-valid-attr-value)
+
+HTML: <a role="menuitem" aria-haspopup="true" aria-expanded="false" aria-controls="mainNavMegaMenu1542" id="mainNavAccessibility" class="navMainItem mainNavItem mainNavItem6 " href="/1542/Accessibility" target="_self">   Accessibility  </a>
+
+Fix all of the following:
+  Unable to determine if aria-controls referenced ID exists on the page while using aria-haspopup: aria-controls="mainNavMegaMenu1542"
+
+You can find more information on this issue here: 
+
+https://dequeuniversity.com/rules/axe/4.10/aria-valid-attr-value?application=axe-puppeteer
+
+
+
+HTML found at $('#graphicLinkWidget8be65e05-dc9b-4a50-b1dc-edf1987ac0d2 > .cpGrid2.widgetBody.cpGrid > .widgetGraphicLinksNav[aria-labelledby="GraphicLinkHeaderText"]') needs to be reviewed:
+
+Issue Description: ARIA attributes must conform to valid values (aria-valid-attr-value)
+
+HTML: <nav class="widgetGraphicLinksNav" aria-labelledby="GraphicLinkHeaderText">
+
+Fix all of the following:
+  ARIA attribute element ID does not exist on the page: aria-labelledby="GraphicLinkHeaderText"
+
+You can find more information on this issue here: 
+
+https://dequeuniversity.com/rules/axe/4.10/aria-valid-attr-value?application=axe-puppeteer
+
+
+
+HTML found at $('#graphicLinkWidget2e437589-ae69-40ce-befc-583765412600 > .cpGrid2.widgetBody.cpGrid > .widgetGraphicLinksNav[aria-labelledby="GraphicLinkHeaderText"]') needs to be reviewed:
+
+Issue Description: ARIA attributes must conform to valid values (aria-valid-attr-value)
+
+HTML: <nav class="widgetGraphicLinksNav" aria-labelledby="GraphicLinkHeaderText">
+
+Fix all of the following:
+  ARIA attribute element ID does not exist on the page: aria-labelledby="GraphicLinkHeaderText"
+
+You can find more information on this issue here: 
+
+https://dequeuniversity.com/rules/axe/4.10/aria-valid-attr-value?application=axe-puppeteer
+
+
+
+HTML found at $('#graphicLinkWidget8ed13289-96d3-4f2e-8665-b9bc629c8f95 > .cpGrid2.widgetBody.cpGrid > .widgetGraphicLinksNav[aria-labelledby="GraphicLinkHeaderText"]') needs to be reviewed:
+
+Issue Description: ARIA attributes must conform to valid values (aria-valid-attr-value)
+
+HTML: <nav class="widgetGraphicLinksNav" aria-labelledby="GraphicLinkHeaderText">
+
+Fix all of the following:
+  ARIA attribute element ID does not exist on the page: aria-labelledby="GraphicLinkHeaderText"
+
+You can find more information on this issue here: 
+
+https://dequeuniversity.com/rules/axe/4.10/aria-valid-attr-value?application=axe-puppeteer
+
+
+
+HTML found at $('.cpGrid3.widgetBody.cpGrid > .widgetGraphicLinksNav[aria-labelledby="GraphicLinkHeaderText"]') needs to be reviewed:
+
+Issue Description: ARIA attributes must conform to valid values (aria-valid-attr-value)
+
+HTML: <nav class="widgetGraphicLinksNav" aria-labelledby="GraphicLinkHeaderText">
+
+Fix all of the following:
+  ARIA attribute element ID does not exist on the page: aria-labelledby="GraphicLinkHeaderText"
+
+You can find more information on this issue here: 
+
+https://dequeuniversity.com/rules/axe/4.10/aria-valid-attr-value?application=axe-puppeteer
+
+
+
+HTML found at $('#graphicLinkWidgetf6c4d7fe-e201-43f6-8d06-322f28da70fc > .cpGrid2.widgetBody.cpGrid > .widgetGraphicLinksNav[aria-labelledby="GraphicLinkHeaderText"]') needs to be reviewed:
+
+Issue Description: ARIA attributes must conform to valid values (aria-valid-attr-value)
+
+HTML: <nav class="widgetGraphicLinksNav" aria-labelledby="GraphicLinkHeaderText">
+
+Fix all of the following:
+  ARIA attribute element ID does not exist on the page: aria-labelledby="GraphicLinkHeaderText"
+
+You can find more information on this issue here: 
+
+https://dequeuniversity.com/rules/axe/4.10/aria-valid-attr-value?application=axe-puppeteer
+
+
+
+HTML found at $('.cpGrid6 > .widgetGraphicLinksNav[aria-labelledby="GraphicLinkHeaderText"]') needs to be reviewed:
+
+Issue Description: ARIA attributes must conform to valid values (aria-valid-attr-value)
+
+HTML: <nav class="widgetGraphicLinksNav" aria-labelledby="GraphicLinkHeaderText">
+
+Fix all of the following:
+  ARIA attribute element ID does not exist on the page: aria-labelledby="GraphicLinkHeaderText"
+
+You can find more information on this issue here: 
+
+https://dequeuniversity.com/rules/axe/4.10/aria-valid-attr-value?application=axe-puppeteer
+
+
+
+-------------------------------------------------------------
+
+HTML found at $('#mainNavGovernment') needs to be reviewed:
+
+Issue Description: Elements must meet minimum color contrast ratio thresholds (color-contrast)
+
+HTML: <a role="menuitem" aria-haspopup="true" aria-expanded="false" aria-controls="mainNavMegaMenu27" id="mainNavGovernment" class="navMainItem mainNavItem mainNavItem1 " href="/27/Government" target="_self">   Government  </a>
+
+Fix any of the following:
+  Element's background color could not be determined due to a background image
+
+You can find more information on this issue here: 
+
+https://dequeuniversity.com/rules/axe/4.10/color-contrast?application=axe-puppeteer
+
+
+
+HTML found at $('#mainNavVisitors') needs to be reviewed:
+
+Issue Description: Elements must meet minimum color contrast ratio thresholds (color-contrast)
+
+HTML: <a role="menuitem" aria-haspopup="true" aria-expanded="false" aria-controls="mainNavMegaMenu1136" id="mainNavVisitors" class="navMainItem mainNavItem mainNavItem2 " href="/1136/Visitors" target="_self">   Visitors  </a>
+
+Fix any of the following:
+  Element's background color could not be determined due to a background image
+
+You can find more information on this issue here: 
+
+https://dequeuniversity.com/rules/axe/4.10/color-contrast?application=axe-puppeteer
+
+
+
+HTML found at $('#mainNavResidents') needs to be reviewed:
+
+Issue Description: Elements must meet minimum color contrast ratio thresholds (color-contrast)
+
+HTML: <a role="menuitem" aria-haspopup="true" aria-expanded="false" aria-controls="mainNavMegaMenu31" id="mainNavResidents" class="navMainItem mainNavItem mainNavItem3 " href="/31/Residents" target="_self">   Residents   </a>
+
+Fix any of the following:
+  Element's background color could not be determined due to a background image
+
+You can find more information on this issue here: 
+
+https://dequeuniversity.com/rules/axe/4.10/color-contrast?application=axe-puppeteer
+
+
+
+HTML found at $('#mainNavBusiness') needs to be reviewed:
+
+Issue Description: Elements must meet minimum color contrast ratio thresholds (color-contrast)
+
+HTML: <a role="menuitem" aria-haspopup="true" aria-expanded="false" aria-controls="mainNavMegaMenu35" id="mainNavBusiness" class="navMainItem mainNavItem mainNavItem4 " href="/35/Business" target="_self">   Business  </a>
+
+Fix any of the following:
+  Element's background color could not be determined due to a background image
+
+You can find more information on this issue here: 
+
+https://dequeuniversity.com/rules/axe/4.10/color-contrast?application=axe-puppeteer
+
+
+
+HTML found at $('#mainNavIWantTo') needs to be reviewed:
+
+Issue Description: Elements must meet minimum color contrast ratio thresholds (color-contrast)
+
+HTML: <a role="menuitem" aria-haspopup="true" aria-expanded="false" aria-controls="mainNavMegaMenu1132" id="mainNavIWantTo" class="navMainItem mainNavItem mainNavItem5 " href="/1132/I-Want-To" target="_self">   I Want To...  </a>
+
+Fix any of the following:
+  Element's background color could not be determined due to a background image
+
+You can find more information on this issue here: 
+
+https://dequeuniversity.com/rules/axe/4.10/color-contrast?application=axe-puppeteer
+
+
+
+HTML found at $('#mainNavAccessibility') needs to be reviewed:
+
+Issue Description: Elements must meet minimum color contrast ratio thresholds (color-contrast)
+
+HTML: <a role="menuitem" aria-haspopup="true" aria-expanded="false" aria-controls="mainNavMegaMenu1542" id="mainNavAccessibility" class="navMainItem mainNavItem mainNavItem6 " href="/1542/Accessibility" target="_self">   Accessibility  </a>
+
+Fix any of the following:
+  Element's background color could not be determined due to a background image
+
+You can find more information on this issue here: 
+
+https://dequeuniversity.com/rules/axe/4.10/color-contrast?application=axe-puppeteer
+
+
+
+HTML found at $('.fancyButton603 > span > span > .text') needs to be reviewed:
+
+Issue Description: Elements must meet minimum color contrast ratio thresholds (color-contrast)
+
+HTML: <span class="text">Parks &amp; Recreation</span>
+
+Fix any of the following:
+  Element's background color could not be determined due to a pseudo element
+
+You can find more information on this issue here: 
+
+https://dequeuniversity.com/rules/axe/4.10/color-contrast?application=axe-puppeteer
+
+
+
+HTML found at $('.fancyButton604 > span > span > .text') needs to be reviewed:
+
+Issue Description: Elements must meet minimum color contrast ratio thresholds (color-contrast)
+
+HTML: <span class="text">Water/Utility Bill&nbsp;</span>
+
+Fix any of the following:
+  Element's background color could not be determined due to a pseudo element
+
+You can find more information on this issue here: 
+
+https://dequeuniversity.com/rules/axe/4.10/color-contrast?application=axe-puppeteer
+
+
+
+HTML found at $('.fancyButton605 > span > span > .text') needs to be reviewed:
+
+Issue Description: Elements must meet minimum color contrast ratio thresholds (color-contrast)
+
+HTML: <span class="text">Cultural Arts</span>
+
+Fix any of the following:
+  Element's background color could not be determined due to a pseudo element
+
+You can find more information on this issue here: 
+
+https://dequeuniversity.com/rules/axe/4.10/color-contrast?application=axe-puppeteer
+
+
+
+HTML found at $('.fancyButton606 > span > span > .text') needs to be reviewed:
+
+Issue Description: Elements must meet minimum color contrast ratio thresholds (color-contrast)
+
+HTML: <span class="text">Economic Development</span>
+
+Fix any of the following:
+  Element's background color could not be determined due to a pseudo element
+
+You can find more information on this issue here: 
+
+https://dequeuniversity.com/rules/axe/4.10/color-contrast?application=axe-puppeteer
+
+
+
+HTML found at $('.fancyButton608 > span > span > .text') needs to be reviewed:
+
+Issue Description: Elements must meet minimum color contrast ratio thresholds (color-contrast)
+
+HTML: <span class="text">Police</span>
+
+Fix any of the following:
+  Element's background color could not be determined due to a pseudo element
+
+You can find more information on this issue here: 
+
+https://dequeuniversity.com/rules/axe/4.10/color-contrast?application=axe-puppeteer
+
+
+
+HTML found at $('.fancyButton607 > span > span > .text') needs to be reviewed:
+
+Issue Description: Elements must meet minimum color contrast ratio thresholds (color-contrast)
+
+HTML: <span class="text">Fire</span>
+
+Fix any of the following:
+  Element's background color could not be determined due to a pseudo element
+
+You can find more information on this issue here: 
+
+https://dequeuniversity.com/rules/axe/4.10/color-contrast?application=axe-puppeteer
+
+
+
+HTML found at $('.fancyButton643 > span > span > .text') needs to be reviewed:
+
+Issue Description: Elements must meet minimum color contrast ratio thresholds (color-contrast)
+
+HTML: <span class="text">Home</span>
+
+Fix any of the following:
+  Element's background color could not be determined due to a background image
+
+You can find more information on this issue here: 
+
+https://dequeuniversity.com/rules/axe/4.10/color-contrast?application=axe-puppeteer
+
+
+
+HTML found at $('.fancyButton615 > span > span > .text') needs to be reviewed:
+
+Issue Description: Elements must meet minimum color contrast ratio thresholds (color-contrast)
+
+HTML: <span class="text">Jobs</span>
+
+Fix any of the following:
+  Element's background color could not be determined due to a background image
+
+You can find more information on this issue here: 
+
+https://dequeuniversity.com/rules/axe/4.10/color-contrast?application=axe-puppeteer
+
+
+
+HTML found at $('.fancyButton616 > span > span > .text') needs to be reviewed:
+
+Issue Description: Elements must meet minimum color contrast ratio thresholds (color-contrast)
+
+HTML: <span class="text">Parking</span>
+
+Fix any of the following:
+  Element's background color could not be determined due to a background image
+
+You can find more information on this issue here: 
+
+https://dequeuniversity.com/rules/axe/4.10/color-contrast?application=axe-puppeteer
+
+
+
+HTML found at $('.fancyButton617 > span > span > .text') needs to be reviewed:
+
+Issue Description: Elements must meet minimum color contrast ratio thresholds (color-contrast)
+
+HTML: <span class="text">Report<br>A Problem</span>
+
+Fix any of the following:
+  Element's background color could not be determined due to a background image
+
+You can find more information on this issue here: 
+
+https://dequeuniversity.com/rules/axe/4.10/color-contrast?application=axe-puppeteer
+
+
+
+HTML found at $('.fancyButton618 > span > span > .text') needs to be reviewed:
+
+Issue Description: Elements must meet minimum color contrast ratio thresholds (color-contrast)
+
+HTML: <span class="text">Mayor,<br>Council</span>
+
+Fix any of the following:
+  Element's background color could not be determined due to a background image
+
+You can find more information on this issue here: 
+
+https://dequeuniversity.com/rules/axe/4.10/color-contrast?application=axe-puppeteer
+
+
+
+HTML found at $('#divInfoAdvb166a61e-8256-4219-aca0-fa83fd847c30 > .cpGrid1.widgetBody.cpGrid > .row.wide > .col1.first.last > .pageStyles > .InfoAdvanced.fr-view.widgetItem > h1') needs to be reviewed:
+
+Issue Description: Elements must meet minimum color contrast ratio thresholds (color-contrast)
+
+HTML: <h1 class="headline">Popular Resources</h1>
+
+Fix any of the following:
+  Element's background color could not be determined due to a background image
+
+You can find more information on this issue here: 
+
+https://dequeuniversity.com/rules/axe/4.10/color-contrast?application=axe-puppeteer
+
+
+
+HTML found at $('#divInfoAdvb166a61e-8256-4219-aca0-fa83fd847c30 > .cpGrid1.widgetBody.cpGrid > .row.wide > .col1.first.last > .pageStyles > .InfoAdvanced.fr-view.widgetItem > p') needs to be reviewed:
+
+Issue Description: Elements must meet minimum color contrast ratio thresholds (color-contrast)
+
+HTML: <p>Find what you're looking for</p>
+
+Fix any of the following:
+  Element's background color could not be determined due to a background image
+
+You can find more information on this issue here: 
+
+https://dequeuniversity.com/rules/axe/4.10/color-contrast?application=axe-puppeteer
+
+
+
+HTML found at $('#divInfoAdv05ce322f-1a1a-46a7-82e5-05f22d63e832 > .cpGrid1.widgetBody.cpGrid > .row.wide > .col1.first.last > .pageStyles > .InfoAdvanced.fr-view.widgetItem > h1') needs to be reviewed:
+
+Issue Description: Elements must meet minimum color contrast ratio thresholds (color-contrast)
+
+HTML: <h1 class="headline">News &amp; Events</h1>
+
+Fix any of the following:
+  Element's background color could not be determined due to a background gradient
+
+You can find more information on this issue here: 
+
+https://dequeuniversity.com/rules/axe/4.10/color-contrast?application=axe-puppeteer
+
+
+
+HTML found at $('#divInfoAdv05ce322f-1a1a-46a7-82e5-05f22d63e832 > .cpGrid1.widgetBody.cpGrid > .row.wide > .col1.first.last > .pageStyles > .InfoAdvanced.fr-view.widgetItem > p') needs to be reviewed:
+
+Issue Description: Elements must meet minimum color contrast ratio thresholds (color-contrast)
+
+HTML: <p>Stay up to date with us</p>
+
+Fix any of the following:
+  Element's background color could not be determined due to a background gradient
+
+You can find more information on this issue here: 
+
+https://dequeuniversity.com/rules/axe/4.10/color-contrast?application=axe-puppeteer
+
+
+
+HTML found at $('.slide0.widgetItem[data-index="0"]:nth-child(2) > .text > h4 > a[target="_blank"][rel="noopener"]') needs to be reviewed:
+
+Issue Description: Elements must meet minimum color contrast ratio thresholds (color-contrast)
+
+HTML: <a href="https://t.e2ma.net/webview/asqe7hb/35ac651bd84192d82decbd06fa185af2" target="_blank" aria-label="Normal Now: May 7, 2026  Opens in new window" rel="noopener">Normal Now: May 7, 2026 </a>
+
+Fix any of the following:
+  Element's background color could not be determined due to a pseudo element
+
+You can find more information on this issue here: 
+
+https://dequeuniversity.com/rules/axe/4.10/color-contrast?application=axe-puppeteer
+
+
+
+HTML found at $('.slide0.widgetItem[data-index="0"]:nth-child(2) > .text > .widgetDesc') needs to be reviewed:
+
+Issue Description: Elements must meet minimum color contrast ratio thresholds (color-contrast)
+
+HTML: <div class="widgetDesc">
+
+Fix any of the following:
+  Element's background color could not be determined due to a pseudo element
+
+You can find more information on this issue here: 
+
+https://dequeuniversity.com/rules/axe/4.10/color-contrast?application=axe-puppeteer
+
+
+
+HTML found at $('.slide0.widgetItem[data-index="0"]:nth-child(2) > .text > .widgetDesc > .readOn[target="_blank"][rel="noopener"]') needs to be reviewed:
+
+Issue Description: Elements must meet minimum color contrast ratio thresholds (color-contrast)
+
+HTML: <a href="https://t.e2ma.net/webview/asqe7hb/35ac651bd84192d82decbd06fa185af2" target="_blank" rel="noopener" class="readOn" aria-label="Read the Full Issue Opens in new window">Read the Full Issue</a>
+
+Fix any of the following:
+  Element's background color could not be determined due to a pseudo element
+
+You can find more information on this issue here: 
+
+https://dequeuniversity.com/rules/axe/4.10/color-contrast?application=axe-puppeteer
+
+
+
+HTML found at $('#divInfoAdv1b5909d7-a71a-4a6b-be52-c38e9c612163 > .cpGrid1.widgetBody.cpGrid > .row.wide > .col1.first.last > .pageStyles > .InfoAdvanced.fr-view.widgetItem > h1') needs to be reviewed:
+
+Issue Description: Elements must meet minimum color contrast ratio thresholds (color-contrast)
+
+HTML: <h1 class="headline" style="text-align: center;">Calendar &amp; Projects</h1>
+
+Fix any of the following:
+  Element's background color could not be determined due to a background image
+
+You can find more information on this issue here: 
+
+https://dequeuniversity.com/rules/axe/4.10/color-contrast?application=axe-puppeteer
+
+
+
+HTML found at $('#divInfoAdv1b5909d7-a71a-4a6b-be52-c38e9c612163 > .cpGrid1.widgetBody.cpGrid > .row.wide > .col1.first.last > .pageStyles > .InfoAdvanced.fr-view.widgetItem > p') needs to be reviewed:
+
+Issue Description: Elements must meet minimum color contrast ratio thresholds (color-contrast)
+
+HTML: <p style="text-align: center;">Stay up to date with us</p>
+
+Fix any of the following:
+  Element's background color could not be determined due to a background image
+
+You can find more information on this issue here: 
+
+https://dequeuniversity.com/rules/axe/4.10/color-contrast?application=axe-puppeteer
+
+
+
+HTML found at $('a > time[datetime="2026-05-25"]') needs to be reviewed:
+
+Issue Description: Elements must meet minimum color contrast ratio thresholds (color-contrast)
+
+HTML: <time datetime="2026-05-25">25</time>
+
+Fix any of the following:
+  Element's background color could not be determined due to a pseudo element
+
+You can find more information on this issue here: 
+
+https://dequeuniversity.com/rules/axe/4.10/color-contrast?application=axe-puppeteer
+
+
+
+HTML found at $('li[data-event-i-d="8496"] > h4') needs to be reviewed:
+
+Issue Description: Elements must meet minimum color contrast ratio thresholds (color-contrast)
+
+HTML: <h4 class="widgetTitle">Mon, May 25  </h4>
+
+Fix any of the following:
+  Element's background color could not be determined due to a background image
+
+You can find more information on this issue here: 
+
+https://dequeuniversity.com/rules/axe/4.10/color-contrast?application=axe-puppeteer
+
+
+
+HTML found at $('strong > a[href="/Calendar.aspx?EID=8496"]') needs to be reviewed:
+
+Issue Description: Elements must meet minimum color contrast ratio thresholds (color-contrast)
+
+HTML: <a href="/Calendar.aspx?EID=8496">Offices Closed - Memorial Day</a>
+
+Fix any of the following:
+  Element's background color could not be determined due to a background image
+
+You can find more information on this issue here: 
+
+https://dequeuniversity.com/rules/axe/4.10/color-contrast?application=axe-puppeteer
+
+
+
+HTML found at $('.readOn[href="/Calendar.aspx?EID=8496"] > span[aria-hidden="true"]') needs to be reviewed:
+
+Issue Description: Elements must meet minimum color contrast ratio thresholds (color-contrast)
+
+HTML: <span aria-hidden="true">Read on...</span>
+
+Fix any of the following:
+  Element's background color could not be determined due to a background image
+
+You can find more information on this issue here: 
+
+https://dequeuniversity.com/rules/axe/4.10/color-contrast?application=axe-puppeteer
+
+
+
+HTML found at $('li[data-event-i-d="9000"] > h4') needs to be reviewed:
+
+Issue Description: Elements must meet minimum color contrast ratio thresholds (color-contrast)
+
+HTML: <h4 class="widgetTitle">Mon, May 25  </h4>
+
+Fix any of the following:
+  Element's background color could not be determined due to a background image
+
+You can find more information on this issue here: 
+
+https://dequeuniversity.com/rules/axe/4.10/color-contrast?application=axe-puppeteer
+
+
+
+HTML found at $('li[data-event-i-d="9000"] > .widgetDesc') needs to be reviewed:
+
+Issue Description: Elements must meet minimum color contrast ratio thresholds (color-contrast)
+
+HTML: <div style="" class="widgetDesc">
+
+Fix any of the following:
+  Element's background color could not be determined due to a background image
+
+You can find more information on this issue here: 
+
+https://dequeuniversity.com/rules/axe/4.10/color-contrast?application=axe-puppeteer
+
+
+
+HTML found at $('strong > a[href="/Calendar.aspx?EID=9000"]') needs to be reviewed:
+
+Issue Description: Elements must meet minimum color contrast ratio thresholds (color-contrast)
+
+HTML: <a href="/Calendar.aspx?EID=9000">Memorial Day Parade</a>
+
+Fix any of the following:
+  Element's background color could not be determined due to a background image
+
+You can find more information on this issue here: 
+
+https://dequeuniversity.com/rules/axe/4.10/color-contrast?application=axe-puppeteer
+
+
+
+HTML found at $('.readOn[href="/Calendar.aspx?EID=9000"] > span[aria-hidden="true"]') needs to be reviewed:
+
+Issue Description: Elements must meet minimum color contrast ratio thresholds (color-contrast)
+
+HTML: <span aria-hidden="true">Read on...</span>
+
+Fix any of the following:
+  Element's background color could not be determined due to a background image
+
+You can find more information on this issue here: 
+
+https://dequeuniversity.com/rules/axe/4.10/color-contrast?application=axe-puppeteer
+
+
+
+HTML found at $('#newsFlashItemHeader3131 > a[target="_blank"][rel="noopener"]') needs to be reviewed:
+
+Issue Description: Elements must meet minimum color contrast ratio thresholds (color-contrast)
+
+HTML: <a href="https://normal-il.civilspace.io/en/projects/pedestrian-roadway-campus-safety-initiative" target="_blank" aria-label="Pedestrian &amp; Roadway Campus Safety Initiative  Opens in new window" rel="noopener">Pedestrian &amp; Roadway Campus Safety Initiative </a>
+
+Fix any of the following:
+  Element's background color could not be determined due to a background image
+
+You can find more information on this issue here: 
+
+https://dequeuniversity.com/rules/axe/4.10/color-contrast?application=axe-puppeteer
+
+
+
+HTML found at $('li[data-news-i-d="3131"] > .text > .widgetDesc') needs to be reviewed:
+
+Issue Description: Elements must meet minimum color contrast ratio thresholds (color-contrast)
+
+HTML: <div class="widgetDesc">
+
+Fix any of the following:
+  Element's background color could not be determined due to a background image
+
+You can find more information on this issue here: 
+
+https://dequeuniversity.com/rules/axe/4.10/color-contrast?application=axe-puppeteer
+
+
+
+HTML found at $('#newsFlashReadOn3131') needs to be reviewed:
+
+Issue Description: Elements must meet minimum color contrast ratio thresholds (color-contrast)
+
+HTML: <a id="newsFlashReadOn3131" aria-labelledby="newsFlashItemHeader3131 newsFlashReadOn3131" href="https://normal-il.civilspace.io/en/projects/pedestrian-roadway-campus-safety-initiative" target="_blank" class="readOn sameLine" aria-label="Learn more on the Normal FOrum Opens in new window" rel="noopener">
+
+Fix any of the following:
+  Element's background color could not be determined due to a background image
+
+You can find more information on this issue here: 
+
+https://dequeuniversity.com/rules/axe/4.10/color-contrast?application=axe-puppeteer
+
+
+
+HTML found at $('#newsFlashItemHeader3197 > a[target="_blank"][rel="noopener"]') needs to be reviewed:
+
+Issue Description: Elements must meet minimum color contrast ratio thresholds (color-contrast)
+
+HTML: <a href="https://normal-il.civilspace.io/en/projects/normal-fire-department" target="_blank" aria-label="Normal Fire Department  Opens in new window" rel="noopener">Normal Fire Department </a>
+
+Fix any of the following:
+  Element's background color could not be determined due to a background image
+
+You can find more information on this issue here: 
+
+https://dequeuniversity.com/rules/axe/4.10/color-contrast?application=axe-puppeteer
+
+
+
+HTML found at $('li[data-news-i-d="3197"] > .text > .widgetDesc') needs to be reviewed:
+
+Issue Description: Elements must meet minimum color contrast ratio thresholds (color-contrast)
+
+HTML: <div class="widgetDesc">
+
+Fix any of the following:
+  Element's background color could not be determined due to a background image
+
+You can find more information on this issue here: 
+
+https://dequeuniversity.com/rules/axe/4.10/color-contrast?application=axe-puppeteer
+
+
+
+HTML found at $('#newsFlashReadOn3197') needs to be reviewed:
+
+Issue Description: Elements must meet minimum color contrast ratio thresholds (color-contrast)
+
+HTML: <a id="newsFlashReadOn3197" aria-labelledby="newsFlashItemHeader3197 newsFlashReadOn3197" href="https://normal-il.civilspace.io/en/projects/normal-fire-department" target="_blank" class="readOn sameLine" aria-label="Learn more on the Normal Forum Opens in new window" rel="noopener">
+
+Fix any of the following:
+  Element's background color could not be determined due to a background image
+
+You can find more information on this issue here: 
+
+https://dequeuniversity.com/rules/axe/4.10/color-contrast?application=axe-puppeteer
+
+
+
+HTML found at $('#newsFlashItemHeader2861 > a[target="_blank"][rel="noopener"]') needs to be reviewed:
+
+Issue Description: Elements must meet minimum color contrast ratio thresholds (color-contrast)
+
+HTML: <a href="https://normal-il.civilspace.io/en/projects/uptown-connector-underpass" target="_blank" aria-label="Uptown Connector/Underpass  Opens in new window" rel="noopener">Uptown Connector/Underpass </a>
+
+Fix any of the following:
+  Element's background color could not be determined due to a background image
+
+You can find more information on this issue here: 
+
+https://dequeuniversity.com/rules/axe/4.10/color-contrast?application=axe-puppeteer
+
+
+
+HTML found at $('li[data-news-i-d="2861"] > .text > .widgetDesc') needs to be reviewed:
+
+Issue Description: Elements must meet minimum color contrast ratio thresholds (color-contrast)
+
+HTML: <div class="widgetDesc">
+
+Fix any of the following:
+  Element's background color could not be determined due to a background image
+
+You can find more information on this issue here: 
+
+https://dequeuniversity.com/rules/axe/4.10/color-contrast?application=axe-puppeteer
+
+
+
+HTML found at $('#newsFlashReadOn2861') needs to be reviewed:
+
+Issue Description: Elements must meet minimum color contrast ratio thresholds (color-contrast)
+
+HTML: <a id="newsFlashReadOn2861" aria-labelledby="newsFlashItemHeader2861 newsFlashReadOn2861" href="https://normal-il.civilspace.io/en/projects/uptown-connector-underpass" target="_blank" class="readOn sameLine" aria-label="Learn more on the Normal Forum Opens in new window" rel="noopener">
+
+Fix any of the following:
+  Element's background color could not be determined due to a background image
+
+You can find more information on this issue here: 
+
+https://dequeuniversity.com/rules/axe/4.10/color-contrast?application=axe-puppeteer
+
+
+
+HTML found at $('#newsFlashItemHeader2862 > a[target="_blank"][rel="noopener"]') needs to be reviewed:
+
+Issue Description: Elements must meet minimum color contrast ratio thresholds (color-contrast)
+
+HTML: <a href="https://normal-il.civilspace.io/en/projects/public-art" target="_blank" aria-label="Public Art  Opens in new window" rel="noopener">Public Art </a>
+
+Fix any of the following:
+  Element's background color could not be determined due to a background image
+
+You can find more information on this issue here: 
+
+https://dequeuniversity.com/rules/axe/4.10/color-contrast?application=axe-puppeteer
+
+
+
+HTML found at $('li[data-news-i-d="2862"] > .text > .widgetDesc') needs to be reviewed:
+
+Issue Description: Elements must meet minimum color contrast ratio thresholds (color-contrast)
+
+HTML: <div class="widgetDesc">
+
+Fix any of the following:
+  Element's background color could not be determined due to a background image
+
+You can find more information on this issue here: 
+
+https://dequeuniversity.com/rules/axe/4.10/color-contrast?application=axe-puppeteer
+
+
+
+HTML found at $('#newsFlashReadOn2862') needs to be reviewed:
+
+Issue Description: Elements must meet minimum color contrast ratio thresholds (color-contrast)
+
+HTML: <a id="newsFlashReadOn2862" aria-labelledby="newsFlashItemHeader2862 newsFlashReadOn2862" href="https://normal-il.civilspace.io/en/projects/public-art" target="_blank" class="readOn sameLine" aria-label="Learn more on the Normal Forum Opens in new window" rel="noopener">
+
+Fix any of the following:
+  Element's background color could not be determined due to a background image
+
+You can find more information on this issue here: 
+
+https://dequeuniversity.com/rules/axe/4.10/color-contrast?application=axe-puppeteer
+
+
+
+HTML found at $('#newsFlashItemHeader2860 > a[target="_blank"][rel="noopener"]') needs to be reviewed:
+
+Issue Description: Elements must meet minimum color contrast ratio thresholds (color-contrast)
+
+HTML: <a href="https://normal-il.civilspace.io/en/projects/parks-recreation-projects" target="_blank" aria-label="Parks &amp; Recreation Projects  Opens in new window" rel="noopener">Parks &amp; Recreation Projects </a>
+
+Fix any of the following:
+  Element's background color could not be determined due to a background image
+
+You can find more information on this issue here: 
+
+https://dequeuniversity.com/rules/axe/4.10/color-contrast?application=axe-puppeteer
+
+
+
+HTML found at $('li[data-news-i-d="2860"] > .text > .widgetDesc') needs to be reviewed:
+
+Issue Description: Elements must meet minimum color contrast ratio thresholds (color-contrast)
+
+HTML: <div class="widgetDesc">
+
+Fix any of the following:
+  Element's background color could not be determined due to a background image
+
+You can find more information on this issue here: 
+
+https://dequeuniversity.com/rules/axe/4.10/color-contrast?application=axe-puppeteer
+
+
+
+HTML found at $('#newsFlashReadOn2860') needs to be reviewed:
+
+Issue Description: Elements must meet minimum color contrast ratio thresholds (color-contrast)
+
+HTML: <a id="newsFlashReadOn2860" aria-labelledby="newsFlashItemHeader2860 newsFlashReadOn2860" href="https://normal-il.civilspace.io/en/projects/parks-recreation-projects" target="_blank" class="readOn sameLine" aria-label="Learn more on the Normal Forum Opens in new window" rel="noopener">
+
+Fix any of the following:
+  Element's background color could not be determined due to a background image
+
+You can find more information on this issue here: 
+
+https://dequeuniversity.com/rules/axe/4.10/color-contrast?application=axe-puppeteer
+
+
+
+HTML found at $('.cpBylineTextTS') needs to be reviewed:
+
+Issue Description: Elements must meet minimum color contrast ratio thresholds (color-contrast)
+
+HTML: <span class="cpBylineTextTS">Government Websites by <a href="https://connect.civicplus.com/referral">CivicPlus®</a></span>
+
+Fix any of the following:
+  Element's background color could not be determined due to a background image
+
+You can find more information on this issue here: 
+
+https://dequeuniversity.com/rules/axe/4.10/color-contrast?application=axe-puppeteer
+
+
+
+HTML found at $('.cpBylineTextTS > a') needs to be reviewed:
+
+Issue Description: Elements must meet minimum color contrast ratio thresholds (color-contrast)
+
+HTML: <a href="https://connect.civicplus.com/referral">CivicPlus®</a>
+
+Fix any of the following:
+  Element's background color could not be determined due to a background image
+
+You can find more information on this issue here: 
+
+https://dequeuniversity.com/rules/axe/4.10/color-contrast?application=axe-puppeteer
+
+
+
+HTML found at $('.goog-te-gadget') needs to be reviewed:
+
+Issue Description: Elements must meet minimum color contrast ratio thresholds (color-contrast)
+
+HTML: <div class="skiptranslate goog-te-gadget" dir="ltr" style="">
+
+Fix any of the following:
+  Element's background color could not be determined due to a background image
+
+You can find more information on this issue here: 
+
+https://dequeuniversity.com/rules/axe/4.10/color-contrast?application=axe-puppeteer
+
+
+
+HTML found at $('select') needs to be reviewed:
+
+Issue Description: Elements must meet minimum color contrast ratio thresholds (color-contrast)
+
+HTML: <select class="goog-te-combo" aria-label="Language Translate Widget">
+
+Fix any of the following:
+  Element's background color could not be determined due to a background image
+
+You can find more information on this issue here: 
+
+https://dequeuniversity.com/rules/axe/4.10/color-contrast?application=axe-puppeteer
+
+
+
+HTML found at $('.VIpgJd-ZVi9od-l4eHX-hSRGPd') needs to be reviewed:
+
+Issue Description: Elements must meet minimum color contrast ratio thresholds (color-contrast)
+
+HTML: <a class="VIpgJd-ZVi9od-l4eHX-hSRGPd" href="https://translate.google.com" target="_blank" rel="noopener"><img src="https://www.gstatic.com/images/branding/googlelogo/1x/googlelogo_color_42x16dp.png" width="37px" height="14px" style="padding-right: 3px" alt="Google Translate">Translate</a>
+
+Fix any of the following:
+  Element's background color could not be determined due to a background image
+
+You can find more information on this issue here: 
+
+https://dequeuniversity.com/rules/axe/4.10/color-contrast?application=axe-puppeteer
+
+
+
+-------------------------------------------------------------
+
+HTML found at $('.slide3.clone[data-index="3"] > .text > h4') needs to be reviewed:
+
+Issue Description: IDs used in ARIA and labels must be unique (duplicate-id-aria)
+
+HTML: <h4 id="newsFlashItemHeader3237" class="widgetTitle">
+		<a href="/CivicAlerts.aspx?AID=3237" target="_self">Town of Normal launches online store celebrating Route 66 Centennial </a>
+	</h4>
+
+Fix any of the following:
+  Document has multiple elements referenced with ARIA with the same id attribute: newsFlashItemHeader3237
+
+You can find more information on this issue here: 
+
+https://dequeuniversity.com/rules/axe/4.10/duplicate-id-aria?application=axe-puppeteer
+
+
+
+HTML found at $('.slide3.clone[data-index="3"] > .text > .widgetDesc > .readOn[href="/CivicAlerts.aspx?AID=3237"][target="_self"]') needs to be reviewed:
+
+Issue Description: IDs used in ARIA and labels must be unique (duplicate-id-aria)
+
+HTML: <a id="newsFlashReadOn3237" href="/CivicAlerts.aspx?AID=3237" target="_self" class="readOn" aria-labelledby="newsFlashItemHeader3237 newsFlashReadOn3237">Read on...</a>
+
+Fix any of the following:
+  Document has multiple elements referenced with ARIA with the same id attribute: newsFlashReadOn3237
+
+You can find more information on this issue here: 
+
+https://dequeuniversity.com/rules/axe/4.10/duplicate-id-aria?application=axe-puppeteer
+
+
+
+HTML found at $('.slide0.widgetItem[data-index="0"]:nth-child(2) > .text > h4') needs to be reviewed:
+
+Issue Description: IDs used in ARIA and labels must be unique (duplicate-id-aria)
+
+HTML: <h4 id="newsFlashItemHeader3245" class="widgetTitle">
+		<a href="https://t.e2ma.net/webview/asqe7hb/35ac651bd84192d82decbd06fa185af2" target="_blank" aria-label="Normal Now: May 7, 2026  Opens in new window" rel="noopener">Normal Now: May 7, 2026 </a>
+	</h4>
+
+Fix any of the following:
+  Document has multiple elements referenced with ARIA with the same id attribute: newsFlashItemHeader3245
+
+You can find more information on this issue here: 
+
+https://dequeuniversity.com/rules/axe/4.10/duplicate-id-aria?application=axe-puppeteer
+
+
+
+HTML found at $('.slide1 > .text > h4') needs to be reviewed:
+
+Issue Description: IDs used in ARIA and labels must be unique (duplicate-id-aria)
+
+HTML: <h4 id="newsFlashItemHeader3240" class="widgetTitle">
+		<a href="/CivicAlerts.aspx?AID=3240" target="_self">Spring Hydrant Flushing Schedule Set for May </a>
+	</h4>
+
+Fix any of the following:
+  Document has multiple elements referenced with ARIA with the same id attribute: newsFlashItemHeader3240
+
+You can find more information on this issue here: 
+
+https://dequeuniversity.com/rules/axe/4.10/duplicate-id-aria?application=axe-puppeteer
+
+
+
+HTML found at $('.text > .widgetDesc > .readOn[href="/CivicAlerts.aspx?AID=3240"][target="_self"]') needs to be reviewed:
+
+Issue Description: IDs used in ARIA and labels must be unique (duplicate-id-aria)
+
+HTML: <a id="newsFlashReadOn3240" href="/CivicAlerts.aspx?AID=3240" target="_self" class="readOn" aria-labelledby="newsFlashItemHeader3240 newsFlashReadOn3240">Read on...</a>
+
+Fix any of the following:
+  Document has multiple elements referenced with ARIA with the same id attribute: newsFlashReadOn3240
+
+You can find more information on this issue here: 
+
+https://dequeuniversity.com/rules/axe/4.10/duplicate-id-aria?application=axe-puppeteer
+
+
+
+HTML found at $('.slide2 > .text > h4') needs to be reviewed:
+
+Issue Description: IDs used in ARIA and labels must be unique (duplicate-id-aria)
+
+HTML: <h4 id="newsFlashItemHeader3249" class="widgetTitle">
+		<a href="/CivicAlerts.aspx?AID=3249" target="_blank" aria-label="Normal Business Brief: April 2026  Opens in new window" rel="noopener">Normal Business Brief: April 2026 </a>
+	</h4>
+
+Fix any of the following:
+  Document has multiple elements referenced with ARIA with the same id attribute: newsFlashItemHeader3249
+
+You can find more information on this issue here: 
+
+https://dequeuniversity.com/rules/axe/4.10/duplicate-id-aria?application=axe-puppeteer
+

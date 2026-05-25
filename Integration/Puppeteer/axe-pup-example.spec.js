@@ -1,5 +1,10 @@
 const puppeteer = require('puppeteer');
 const { AxePuppeteer } = require('@axe-core/puppeteer');
+const path = require('path');
+const {
+  axeJsonReport,
+  axeTextReport,
+} = require('axe-reporting-utils');
 
 describe('Accessibility Testing Normal Website', () => {
   let browser;
@@ -8,6 +13,12 @@ describe('Accessibility Testing Normal Website', () => {
   beforeAll(async () => {
     browser = await puppeteer.launch({ headless: true });
     page = await browser.newPage();
+
+    page.on('console', message => {
+      if (message.type() === 'log') {
+        console.log(`[browser:log] ${message.text()}`);
+      }
+    });
   });
 
   afterAll(async () => {
@@ -19,6 +30,10 @@ describe('Accessibility Testing Normal Website', () => {
     await page.goto('https://www.normalil.gov/');
     
     const results = await new AxePuppeteer(page).analyze();
+
+    axeJsonReport(results, path.join(__dirname, 'axe-reports'), 'axe-homepage-report.json');
+    axeTextReport(results, path.join(__dirname, 'axe-reports/axe-homepage-report.txt'));
+    
     expect(results.violations).toHaveLength(0);
   });
 
