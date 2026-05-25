@@ -10,13 +10,14 @@
     "test": "jest",
     "test:watch": "jest --watch"
   },
-    "devDependencies": {
+  "devDependencies": {
     "jest": "^29.7.0"
   },
   "dependencies": {
-    "selenium-webdriver": "^4.37.0",
     "@axe-core/webdriverjs": "^4.10.0",
     "axe-core": "^4.10.0",
-    "chromedriver":"141.0.3"
+    "axe-reporting-utils": "^2.0.0",
+    "chromedriver": "141.0.3",
+    "selenium-webdriver": "^4.37.0"
   }
 }
