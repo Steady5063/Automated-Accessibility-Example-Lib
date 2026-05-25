@@ -13,7 +13,10 @@
     "@wdio/local-runner": "^8.27.0",
     "@wdio/mocha-framework": "^8.27.0",
     "@wdio/spec-reporter": "^8.27.0",
-    "chromedriver": "^145.0.5",
+    "chromedriver": "^149.0.0",
     "wdio-chromedriver-service": "^8.1.1"
+  },
+  "dependencies": {
+    "axe-reporting-utils": "^2.0.0"
   }
 }

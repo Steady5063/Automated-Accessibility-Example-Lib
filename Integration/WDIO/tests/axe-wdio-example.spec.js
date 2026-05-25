@@ -1,4 +1,9 @@
 const { default: AxeBuilder } = require('@axe-core/webdriverio');
+const {
+  axeJsonReport,
+  axeTextReport,
+  axeConsoleLogger
+} = require('axe-reporting-utils');
 
 describe('Accessibility Testing with Axe - Normal, IL Government Site', () => {
 
@@ -12,7 +17,7 @@ describe('Accessibility Testing with Axe - Normal, IL Government Site', () => {
     // Basic full page accessibility scan
     it('should have no accessibility violations on homepage', async () => {
         const results = await axe.analyze();
-
+        axeTextReport(results, "axe-normalil-report.txt");
         expect(results.violations).toHaveLength(0);
     });
     

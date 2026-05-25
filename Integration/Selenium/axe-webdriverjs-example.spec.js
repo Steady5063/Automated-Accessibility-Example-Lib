@@ -1,5 +1,10 @@
 const { Builder } = require('selenium-webdriver');
 const AxeBuilder = require('@axe-core/webdriverjs');
+const {
+  axeJsonReport,
+  axeTextReport,
+  axeConsoleLogger
+} = require('axe-reporting-utils');
 
 describe('Axe Accessibility Tests', () => {
   let driver, axeDriver;
@@ -21,6 +26,8 @@ describe('Axe Accessibility Tests', () => {
     // Inject and run axe
     const results = await axeDriver.analyze();
 
+    axeConsoleLogger(results);
+
     expect(results.violations.length).toEqual(0);
   }, 30000);
 
@@ -34,6 +41,8 @@ describe('Axe Accessibility Tests', () => {
         type: 'tag',
         values: ['wcag2aa']
       }}).analyze();
+
+      axeTextReport(results);
 
     expect(results.violations.length).toEqual(0);
    }, 30000);

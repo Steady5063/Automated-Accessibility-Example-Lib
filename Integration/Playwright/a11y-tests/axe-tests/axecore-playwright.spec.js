@@ -1,6 +1,6 @@
 const { test, expect } = require('@playwright/test');
 const { AxeBuilder } = require('@axe-core/playwright');
-
+const {axeTextReport} = require('axe-reporting-utils');
 test.describe('Watch example site', () => {
   let page, browser; 
 
@@ -13,11 +13,13 @@ test.describe('Watch example site', () => {
     await browser.close();
   });
 
-  //Simple axe test that runs only the standard ruleset
+  //Simple axe test that runs only the standard rulesetm using the text report from axe-reporting-utils
   test('Axe Scan - No customization', async () => {
     await page.goto('https://nuro.co/');
 
     const results = await new AxeBuilder({ page }).analyze();
+    axeTextReport(results, './accessibility-reports/nuro-report.txt');
+
     expect(results.violations.length).toBe(0);
   });
 

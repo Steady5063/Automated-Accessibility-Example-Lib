@@ -12,6 +12,7 @@
     "@axe-core/playwright": "^4.10.2",
     "@playwright/test": "^1.51.0",
     "axe-playwright": "^2.2.2",
+    "axe-reporting-utils": "^2.0.0",
     "playwright": "^1.51.0"
   }
 }
