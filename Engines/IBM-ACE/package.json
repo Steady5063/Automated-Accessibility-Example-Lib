@@ -9,7 +9,7 @@
   "author": "mark steadman",
   "license": "ISC",
   "dependencies": {
-    "accessibility-checker": "^4.0.7",
+    "accessibility-checker": "^4.0.18",
     "accessibility-checker-engine": "^47.0.",
     "jest": "^30.0.5",
     "playwright": "^1.54.1"

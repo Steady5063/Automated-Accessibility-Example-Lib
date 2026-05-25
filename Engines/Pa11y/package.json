@@ -13,6 +13,6 @@
   "license": "ISC",
   "dependencies": {
     "jest": "^30.0.5",
-    "pa11y": "^9.0.0"
+    "pa11y": "^9.1.1"
   }
 }
