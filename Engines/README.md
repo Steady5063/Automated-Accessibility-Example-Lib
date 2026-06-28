@@ -7,3 +7,4 @@ They also use either their own ruleset OR use multiple different rulesets
 * Pa11y
 * Axe-Core
 * Accessibility Checker
+* Semantica11y

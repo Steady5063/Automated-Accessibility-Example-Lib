@@ -1,0 +1,245 @@
+
+Semantica11y Analysis Report
+URL: https://www.normalil.gov/8/Departments
+Time: 2026-06-28T11:45:33.676Z
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+Total Findings: 188
+  Errors: 1
+  Warnings: 187
+  Suggestions: 0
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+Findings By Category
+
+Errors (1)
+────────────────────────────
+
+1. Rule: native-label (1 instance)
+   Message: aria-label does not match native label text
+   Suggestion: Update aria-label to match the visible label, or remove it and rely on native text
+   Elements:
+     - <a class="fancyButton fancyButton617 " aria-label="Report A Problem Opens in new window">
+
+Warnings (187)
+────────────────────────────
+
+1. Rule: aria-landmarks (1 instance)
+   Message: Element appears to be used for main content
+   Suggestion: Consider using <main> semantic element instead
+   Elements:
+     - <div id="mainWrapTS" class="mainWrap" role="main">
+
+2. Rule: heading-hierarchy (1 instance)
+   Message: Heading hierarchy skipped: <h1> -> <h3>
+   Suggestion: Use <h2> instead of <h3>
+   Elements:
+     - Contact Us
+
+3. Rule: aria-actions (88 instances)
+   Message: Native link element has mismatched ARIA button role
+   Suggestion: Remove role="button" or use <button> if the element should behave as button
+   Elements:
+     - <a id="btnSearchIcon" class="widgetSearchButton widgetSearchButtonfcf95243-8ca6-426e-a0fe-7a0825008739" role="button">
+     - <a class="openAccordionNav accordionSecondaryNavItem" role="button" aria-label="Clerk Submenu" aria-expanded="false">
+     - <a class="openAccordionNav accordionSecondaryNavItem" role="button" aria-label="Communications Submenu" aria-expanded="false">
+     - <a class="openAccordionNav accordionNavMenuItem" role="button" aria-label="Community Engagement and Surveys Submenu" aria-expanded="false">
+     - <a class="openAccordionNav accordionSecondaryNavItem" role="button" aria-label="Cultural Arts Submenu" aria-expanded="false">
+     - <a class="openAccordionNav accordionNavMenuItem" role="button" aria-label="About Submenu" aria-expanded="false">
+     - <a class="openAccordionNav accordionNavMenuItem" role="button" aria-label="Programming Submenu" aria-expanded="false">
+     - <a class="openAccordionNav accordionNavMenuItem" role="button" aria-label="Illinois Art Station Submenu" aria-expanded="false">
+     - <a class="openAccordionNav accordionNavMenuItem" role="button" aria-label="Normal LIVE Submenu" aria-expanded="false">
+     - <a class="openAccordionNav accordionNavMenuItem" role="button" aria-label="High School Summer Theatre Program Submenu" aria-expanded="false">
+     - <a class="openAccordionNav accordionNavMenuItem" role="button" aria-label="Public Visual Art Submenu" aria-expanded="false">
+     - <a class="openAccordionNav accordionSecondaryNavItem" role="button" aria-label="Economic Development Submenu" aria-expanded="false">
+     - <a class="openAccordionNav accordionNavMenuItem" role="button" aria-label="Site Selection Submenu" aria-expanded="false">
+     - <a class="openAccordionNav accordionNavMenuItem" role="button" aria-label="About Normal Submenu" aria-expanded="false">
+     - <a class="openAccordionNav accordionNavMenuItem" role="button" aria-label="Incentives Submenu" aria-expanded="false">
+     - <a class="openAccordionNav accordionNavMenuItem" role="button" aria-label="Resources Submenu" aria-expanded="false">
+     - <a class="openAccordionNav accordionSecondaryNavItem" role="button" aria-label="Engineering & Public Works Submenu" aria-expanded="false">
+     - <a class="openAccordionNav accordionNavMenuItem" role="button" aria-label="Garbage & Recycling Submenu" aria-expanded="false">
+     - <a class="openAccordionNav accordionNavMenuItem" role="button" aria-label="Streets & Sidewalks Submenu" aria-expanded="false">
+     - <a class="openAccordionNav accordionNavMenuItem" role="button" aria-label="Streets  Submenu" aria-expanded="false">
+     - <a class="openAccordionNav accordionNavMenuItem" role="button" aria-label="Snow & Ice Control Submenu" aria-expanded="false">
+     - <a class="openAccordionNav accordionNavMenuItem" role="button" aria-label="Yard Care & Collection  Submenu" aria-expanded="false">
+     - <a class="openAccordionNav accordionNavMenuItem" role="button" aria-label="Storm Water Management Submenu" aria-expanded="false">
+     - <a class="openAccordionNav accordionNavMenuItem" role="button" aria-label="Sewer  Submenu" aria-expanded="false">
+     - <a class="openAccordionNav accordionNavMenuItem" role="button" aria-label="Staff Directory Submenu" aria-expanded="false">
+     - <a class="openAccordionNav accordionSecondaryNavItem" role="button" aria-label="Facilities Management Submenu" aria-expanded="false">
+     - <a class="openAccordionNav accordionSecondaryNavItem" role="button" aria-label="Finance Submenu" aria-expanded="false">
+     - <a class="openAccordionNav accordionNavMenuItem" role="button" aria-label="Budget Submenu" aria-expanded="false">
+     - <a class="openAccordionNav accordionNavMenuItem" role="button" aria-label="Budget Information Online Submenu" aria-expanded="false">
+     - <a class="openAccordionNav accordionSecondaryNavItem" role="button" aria-label="Fire Submenu" aria-expanded="false">
+     - <a class="openAccordionNav accordionNavMenuItem" role="button" aria-label="About the Department Submenu" aria-expanded="false">
+     - <a class="openAccordionNav accordionNavMenuItem" role="button" aria-label="Careers with NFD Submenu" aria-expanded="false">
+     - <a class="openAccordionNav accordionNavMenuItem" role="button" aria-label="Divisions Submenu" aria-expanded="false">
+     - <a class="openAccordionNav accordionNavMenuItem" role="button" aria-label="Stations & Apparatus Submenu" aria-expanded="false">
+     - <a class="openAccordionNav accordionSecondaryNavItem" role="button" aria-label="Human Resources Submenu" aria-expanded="false">
+     - <a class="openAccordionNav accordionNavMenuItem" role="button" aria-label="Benefits Summary Submenu" aria-expanded="false">
+     - <a class="openAccordionNav accordionNavMenuItem" role="button" aria-label="Employment Opportunities Submenu" aria-expanded="false">
+     - <a class="openAccordionNav accordionNavMenuItem" role="button" aria-label="Currently Hiring Entry Level and Certified Officers  Submenu" aria-expanded="false">
+     - <a class="openAccordionNav accordionSecondaryNavItem" role="button" aria-label="Innovation & Technology Submenu" aria-expanded="false">
+     - <a class="openAccordionNav accordionSecondaryNavItem" role="button" aria-label="Inspections Submenu" aria-expanded="false">
+     - <a class="openAccordionNav accordionSecondaryNavItem" role="button" aria-label="Legal Submenu" aria-expanded="false">
+     - <a class="openAccordionNav accordionSecondaryNavItem" role="button" aria-label="Parks & Recreation Submenu" aria-expanded="false">
+     - <a class="openAccordionNav accordionNavMenuItem" role="button" aria-label="INFO Submenu" aria-expanded="false">
+     - <a class="openAccordionNav accordionNavMenuItem" role="button" aria-label="Activity Guide Submenu" aria-expanded="false">
+     - <a class="openAccordionNav accordionNavMenuItem" role="button" aria-label="Parks/Facilities Submenu" aria-expanded="false">
+     - <a class="openAccordionNav accordionNavMenuItem" role="button" aria-label="Parks Submenu" aria-expanded="false">
+     - <a class="openAccordionNav accordionNavMenuItem" role="button" aria-label="Constitution Trail Submenu" aria-expanded="false">
+     - <a class="openAccordionNav accordionNavMenuItem" role="button" aria-label="Shelters Submenu" aria-expanded="false">
+     - <a class="openAccordionNav accordionNavMenuItem" role="button" aria-label="Ironwood Golf Course Submenu" aria-expanded="false">
+     - <a class="openAccordionNav accordionNavMenuItem" role="button" aria-label="Amenities Submenu" aria-expanded="false">
+     - <a class="openAccordionNav accordionNavMenuItem" role="button" aria-label="Facilities Submenu" aria-expanded="false">
+     - <a class="openAccordionNav accordionNavMenuItem" role="button" aria-label="Community Connections Submenu" aria-expanded="false">
+     - <a class="openAccordionNav accordionNavMenuItem" role="button" aria-label="Town Forestry Submenu" aria-expanded="false">
+     - <a class="openAccordionNav accordionNavMenuItem" role="button" aria-label="Special Events Submenu" aria-expanded="false">
+     - <a class="openAccordionNav accordionNavMenuItem" role="button" aria-label="Programs Submenu" aria-expanded="false">
+     - <a class="openAccordionNav accordionNavMenuItem" role="button" aria-label="After School Program Submenu" aria-expanded="false">
+     - <a class="openAccordionNav accordionNavMenuItem" role="button" aria-label="Day Camps  Submenu" aria-expanded="false">
+     - <a class="openAccordionNav accordionNavMenuItem" role="button" aria-label="I Want To... Submenu" aria-expanded="false">
+     - <a class="openAccordionNav accordionNavMenuItem" role="button" aria-label=" Pop Up Park Submenu" aria-expanded="false">
+     - <a class="openAccordionNav accordionNavMenuItem" role="button" aria-label="Apply for... Submenu" aria-expanded="false">
+     - <a class="openAccordionNav accordionNavMenuItem" role="button" aria-label="Find... Submenu" aria-expanded="false">
+     - <a class="openAccordionNav accordionNavMenuItem" role="button" aria-label="Register for Programs Submenu" aria-expanded="false">
+     - <a class="openAccordionNav accordionNavMenuItem" role="button" aria-label="Report... Submenu" aria-expanded="false">
+     - <a class="openAccordionNav accordionSecondaryNavItem" role="button" aria-label="Planning & Zoning Submenu" aria-expanded="false">
+     - <a class="openAccordionNav accordionNavMenuItem" role="button" aria-label="Community Development Block Grant Submenu" aria-expanded="false">
+     - <a class="openAccordionNav accordionNavMenuItem" role="button" aria-label="Emergency Repair & Accessibility Program Submenu" aria-expanded="false">
+     - <a class="openAccordionNav accordionSecondaryNavItem" role="button" aria-label="Police Submenu" aria-expanded="false">
+     - <a class="openAccordionNav accordionNavMenuItem" role="button" aria-label="About Us Submenu" aria-expanded="false">
+     - <a class="openAccordionNav accordionNavMenuItem" role="button" aria-label="Divisions & Units Submenu" aria-expanded="false">
+     - <a class="openAccordionNav accordionNavMenuItem" role="button" aria-label="Community Engagement Submenu" aria-expanded="false">
+     - <a class="openAccordionNav accordionNavMenuItem" role="button" aria-label="Programs Submenu" aria-expanded="false">
+     - <a class="openAccordionNav accordionNavMenuItem" role="button" aria-label="Residents Submenu" aria-expanded="false">
+     - <a class="openAccordionNav accordionNavMenuItem" role="button" aria-label="Victim Information & Resources Submenu" aria-expanded="false">
+     - <a class="openAccordionNav accordionNavMenuItem" role="button" aria-label="I Want To… Submenu" aria-expanded="false">
+     - <a class="openAccordionNav accordionNavMenuItem" role="button" aria-label="Apply for: Submenu" aria-expanded="false">
+     - <a class="openAccordionNav accordionNavMenuItem" role="button" aria-label="Find: Submenu" aria-expanded="false">
+     - <a class="openAccordionNav accordionNavMenuItem" role="button" aria-label="Report: Submenu" aria-expanded="false">
+     - <a class="openAccordionNav accordionNavMenuItem" role="button" aria-label="Request: Submenu" aria-expanded="false">
+     - <a class="openAccordionNav accordionSecondaryNavItem" role="button" aria-label="Uptown Normal Submenu" aria-expanded="false">
+     - <a class="openAccordionNav accordionNavMenuItem" role="button" aria-label="About Submenu" aria-expanded="false">
+     - <a class="openAccordionNav accordionNavMenuItem" role="button" aria-label="Attractions and Amenities Submenu" aria-expanded="false">
+     - <a class="openAccordionNav accordionNavMenuItem" role="button" aria-label="Events Submenu" aria-expanded="false">
+     - <a class="openAccordionNav accordionNavMenuItem" role="button" aria-label="Festivals and Street Fairs Submenu" aria-expanded="false">
+     - <a class="openAccordionNav accordionNavMenuItem" role="button" aria-label="Getting Here Submenu" aria-expanded="false">
+     - <a class="openAccordionNav accordionSecondaryNavItem" role="button" aria-label="Water Submenu" aria-expanded="false">
+     - <a class="openAccordionNav accordionNavMenuItem" role="button" aria-label="Water Services Submenu" aria-expanded="false">
+     - <a class="openAccordionNav accordionNavMenuItem" role="button" aria-label="Pay Your Water/Utility Bill  Submenu" aria-expanded="false">
+     - <a class="openAccordionNav accordionNavMenuItem" role="button" aria-label="H2O Info Submenu" aria-expanded="false">
+
+4. Rule: aria-expanded (93 instances)
+   Message: Element uses aria-expanded="false" for disclosure state
+   Suggestion: Consider using native <details> and <summary> elements for expandable content
+   Elements:
+     - <a id="mainNavGovernment" class="navMainItem mainNavItem mainNavItem1 " role="menuitem" aria-expanded="false">
+     - <a id="mainNavVisitors" class="navMainItem mainNavItem mainNavItem2 " role="menuitem" aria-expanded="false">
+     - <a id="mainNavResidents" class="navMainItem mainNavItem mainNavItem3 " role="menuitem" aria-expanded="false">
+     - <a id="mainNavBusiness" class="navMainItem mainNavItem mainNavItem4 " role="menuitem" aria-expanded="false">
+     - <a id="mainNavIWantTo" class="navMainItem mainNavItem mainNavItem5 " role="menuitem" aria-expanded="false">
+     - <a id="mainNavAccessibility" class="navMainItem mainNavItem mainNavItem6 " role="menuitem" aria-expanded="false">
+     - <a class="openAccordionNav accordionSecondaryNavItem" role="button" aria-label="Clerk Submenu" aria-expanded="false">
+     - <a class="openAccordionNav accordionSecondaryNavItem" role="button" aria-label="Communications Submenu" aria-expanded="false">
+     - <a class="openAccordionNav accordionNavMenuItem" role="button" aria-label="Community Engagement and Surveys Submenu" aria-expanded="false">
+     - <a class="openAccordionNav accordionSecondaryNavItem" role="button" aria-label="Cultural Arts Submenu" aria-expanded="false">
+     - <a class="openAccordionNav accordionNavMenuItem" role="button" aria-label="About Submenu" aria-expanded="false">
+     - <a class="openAccordionNav accordionNavMenuItem" role="button" aria-label="Programming Submenu" aria-expanded="false">
+     - <a class="openAccordionNav accordionNavMenuItem" role="button" aria-label="Illinois Art Station Submenu" aria-expanded="false">
+     - <a class="openAccordionNav accordionNavMenuItem" role="button" aria-label="Normal LIVE Submenu" aria-expanded="false">
+     - <a class="openAccordionNav accordionNavMenuItem" role="button" aria-label="High School Summer Theatre Program Submenu" aria-expanded="false">
+     - <a class="openAccordionNav accordionNavMenuItem" role="button" aria-label="Public Visual Art Submenu" aria-expanded="false">
+     - <a class="openAccordionNav accordionSecondaryNavItem" role="button" aria-label="Economic Development Submenu" aria-expanded="false">
+     - <a class="openAccordionNav accordionNavMenuItem" role="button" aria-label="Site Selection Submenu" aria-expanded="false">
+     - <a class="openAccordionNav accordionNavMenuItem" role="button" aria-label="About Normal Submenu" aria-expanded="false">
+     - <a class="openAccordionNav accordionNavMenuItem" role="button" aria-label="Incentives Submenu" aria-expanded="false">
+     - <a class="openAccordionNav accordionNavMenuItem" role="button" aria-label="Resources Submenu" aria-expanded="false">
+     - <a class="openAccordionNav accordionSecondaryNavItem" role="button" aria-label="Engineering & Public Works Submenu" aria-expanded="false">
+     - <a class="openAccordionNav accordionNavMenuItem" role="button" aria-label="Garbage & Recycling Submenu" aria-expanded="false">
+     - <a class="openAccordionNav accordionNavMenuItem" role="button" aria-label="Streets & Sidewalks Submenu" aria-expanded="false">
+     - <a class="openAccordionNav accordionNavMenuItem" role="button" aria-label="Streets  Submenu" aria-expanded="false">
+     - <a class="openAccordionNav accordionNavMenuItem" role="button" aria-label="Snow & Ice Control Submenu" aria-expanded="false">
+     - <a class="openAccordionNav accordionNavMenuItem" role="button" aria-label="Yard Care & Collection  Submenu" aria-expanded="false">
+     - <a class="openAccordionNav accordionNavMenuItem" role="button" aria-label="Storm Water Management Submenu" aria-expanded="false">
+     - <a class="openAccordionNav accordionNavMenuItem" role="button" aria-label="Sewer  Submenu" aria-expanded="false">
+     - <a class="openAccordionNav accordionNavMenuItem" role="button" aria-label="Staff Directory Submenu" aria-expanded="false">
+     - <a class="openAccordionNav accordionSecondaryNavItem" role="button" aria-label="Facilities Management Submenu" aria-expanded="false">
+     - <a class="openAccordionNav accordionSecondaryNavItem" role="button" aria-label="Finance Submenu" aria-expanded="false">
+     - <a class="openAccordionNav accordionNavMenuItem" role="button" aria-label="Budget Submenu" aria-expanded="false">
+     - <a class="openAccordionNav accordionNavMenuItem" role="button" aria-label="Budget Information Online Submenu" aria-expanded="false">
+     - <a class="openAccordionNav accordionSecondaryNavItem" role="button" aria-label="Fire Submenu" aria-expanded="false">
+     - <a class="openAccordionNav accordionNavMenuItem" role="button" aria-label="About the Department Submenu" aria-expanded="false">
+     - <a class="openAccordionNav accordionNavMenuItem" role="button" aria-label="Careers with NFD Submenu" aria-expanded="false">
+     - <a class="openAccordionNav accordionNavMenuItem" role="button" aria-label="Divisions Submenu" aria-expanded="false">
+     - <a class="openAccordionNav accordionNavMenuItem" role="button" aria-label="Stations & Apparatus Submenu" aria-expanded="false">
+     - <a class="openAccordionNav accordionSecondaryNavItem" role="button" aria-label="Human Resources Submenu" aria-expanded="false">
+     - <a class="openAccordionNav accordionNavMenuItem" role="button" aria-label="Benefits Summary Submenu" aria-expanded="false">
+     - <a class="openAccordionNav accordionNavMenuItem" role="button" aria-label="Employment Opportunities Submenu" aria-expanded="false">
+     - <a class="openAccordionNav accordionNavMenuItem" role="button" aria-label="Currently Hiring Entry Level and Certified Officers  Submenu" aria-expanded="false">
+     - <a class="openAccordionNav accordionSecondaryNavItem" role="button" aria-label="Innovation & Technology Submenu" aria-expanded="false">
+     - <a class="openAccordionNav accordionSecondaryNavItem" role="button" aria-label="Inspections Submenu" aria-expanded="false">
+     - <a class="openAccordionNav accordionSecondaryNavItem" role="button" aria-label="Legal Submenu" aria-expanded="false">
+     - <a class="openAccordionNav accordionSecondaryNavItem" role="button" aria-label="Parks & Recreation Submenu" aria-expanded="false">
+     - <a class="openAccordionNav accordionNavMenuItem" role="button" aria-label="INFO Submenu" aria-expanded="false">
+     - <a class="openAccordionNav accordionNavMenuItem" role="button" aria-label="Activity Guide Submenu" aria-expanded="false">
+     - <a class="openAccordionNav accordionNavMenuItem" role="button" aria-label="Parks/Facilities Submenu" aria-expanded="false">
+     - <a class="openAccordionNav accordionNavMenuItem" role="button" aria-label="Parks Submenu" aria-expanded="false">
+     - <a class="openAccordionNav accordionNavMenuItem" role="button" aria-label="Constitution Trail Submenu" aria-expanded="false">
+     - <a class="openAccordionNav accordionNavMenuItem" role="button" aria-label="Shelters Submenu" aria-expanded="false">
+     - <a class="openAccordionNav accordionNavMenuItem" role="button" aria-label="Ironwood Golf Course Submenu" aria-expanded="false">
+     - <a class="openAccordionNav accordionNavMenuItem" role="button" aria-label="Amenities Submenu" aria-expanded="false">
+     - <a class="openAccordionNav accordionNavMenuItem" role="button" aria-label="Facilities Submenu" aria-expanded="false">
+     - <a class="openAccordionNav accordionNavMenuItem" role="button" aria-label="Community Connections Submenu" aria-expanded="false">
+     - <a class="openAccordionNav accordionNavMenuItem" role="button" aria-label="Town Forestry Submenu" aria-expanded="false">
+     - <a class="openAccordionNav accordionNavMenuItem" role="button" aria-label="Special Events Submenu" aria-expanded="false">
+     - <a class="openAccordionNav accordionNavMenuItem" role="button" aria-label="Programs Submenu" aria-expanded="false">
+     - <a class="openAccordionNav accordionNavMenuItem" role="button" aria-label="After School Program Submenu" aria-expanded="false">
+     - <a class="openAccordionNav accordionNavMenuItem" role="button" aria-label="Day Camps  Submenu" aria-expanded="false">
+     - <a class="openAccordionNav accordionNavMenuItem" role="button" aria-label="I Want To... Submenu" aria-expanded="false">
+     - <a class="openAccordionNav accordionNavMenuItem" role="button" aria-label=" Pop Up Park Submenu" aria-expanded="false">
+     - <a class="openAccordionNav accordionNavMenuItem" role="button" aria-label="Apply for... Submenu" aria-expanded="false">
+     - <a class="openAccordionNav accordionNavMenuItem" role="button" aria-label="Find... Submenu" aria-expanded="false">
+     - <a class="openAccordionNav accordionNavMenuItem" role="button" aria-label="Register for Programs Submenu" aria-expanded="false">
+     - <a class="openAccordionNav accordionNavMenuItem" role="button" aria-label="Report... Submenu" aria-expanded="false">
+     - <a class="openAccordionNav accordionSecondaryNavItem" role="button" aria-label="Planning & Zoning Submenu" aria-expanded="false">
+     - <a class="openAccordionNav accordionNavMenuItem" role="button" aria-label="Community Development Block Grant Submenu" aria-expanded="false">
+     - <a class="openAccordionNav accordionNavMenuItem" role="button" aria-label="Emergency Repair & Accessibility Program Submenu" aria-expanded="false">
+     - <a class="openAccordionNav accordionSecondaryNavItem" role="button" aria-label="Police Submenu" aria-expanded="false">
+     - <a class="openAccordionNav accordionNavMenuItem" role="button" aria-label="About Us Submenu" aria-expanded="false">
+     - <a class="openAccordionNav accordionNavMenuItem" role="button" aria-label="Divisions & Units Submenu" aria-expanded="false">
+     - <a class="openAccordionNav accordionNavMenuItem" role="button" aria-label="Community Engagement Submenu" aria-expanded="false">
+     - <a class="openAccordionNav accordionNavMenuItem" role="button" aria-label="Programs Submenu" aria-expanded="false">
+     - <a class="openAccordionNav accordionNavMenuItem" role="button" aria-label="Residents Submenu" aria-expanded="false">
+     - <a class="openAccordionNav accordionNavMenuItem" role="button" aria-label="Victim Information & Resources Submenu" aria-expanded="false">
+     - <a class="openAccordionNav accordionNavMenuItem" role="button" aria-label="I Want To… Submenu" aria-expanded="false">
+     - <a class="openAccordionNav accordionNavMenuItem" role="button" aria-label="Apply for: Submenu" aria-expanded="false">
+     - <a class="openAccordionNav accordionNavMenuItem" role="button" aria-label="Find: Submenu" aria-expanded="false">
+     - <a class="openAccordionNav accordionNavMenuItem" role="button" aria-label="Report: Submenu" aria-expanded="false">
+     - <a class="openAccordionNav accordionNavMenuItem" role="button" aria-label="Request: Submenu" aria-expanded="false">
+     - <a class="openAccordionNav accordionSecondaryNavItem" role="button" aria-label="Uptown Normal Submenu" aria-expanded="false">
+     - <a class="openAccordionNav accordionNavMenuItem" role="button" aria-label="About Submenu" aria-expanded="false">
+     - <a class="openAccordionNav accordionNavMenuItem" role="button" aria-label="Attractions and Amenities Submenu" aria-expanded="false">
+     - <a class="openAccordionNav accordionNavMenuItem" role="button" aria-label="Events Submenu" aria-expanded="false">
+     - <a class="openAccordionNav accordionNavMenuItem" role="button" aria-label="Festivals and Street Fairs Submenu" aria-expanded="false">
+     - <a class="openAccordionNav accordionNavMenuItem" role="button" aria-label="Getting Here Submenu" aria-expanded="false">
+     - <a class="openAccordionNav accordionSecondaryNavItem" role="button" aria-label="Water Submenu" aria-expanded="false">
+     - <a class="openAccordionNav accordionNavMenuItem" role="button" aria-label="Water Services Submenu" aria-expanded="false">
+     - <a class="openAccordionNav accordionNavMenuItem" role="button" aria-label="Pay Your Water/Utility Bill  Submenu" aria-expanded="false">
+     - <a class="openAccordionNav accordionNavMenuItem" role="button" aria-label="H2O Info Submenu" aria-expanded="false">
+
+5. Rule: aria-modal (1 instance)
+   Message: Element uses aria-modal for modal dialog behavior
+   Suggestion: Consider using the native <dialog> element for modal dialogs
+   Elements:
+     - <div id="SplashMessage" class="hidden cp-Splash cp-Splash--modal is-open" role="dialog" tabindex="-1" aria-modal="true">
+
+6. Rule: missing-role-action (3 instances)
+   Message: Focusable element does not have an action role
+   Suggestion: Use a native action element such as <button> or <a>, or add an appropriate action role
+   Elements:
+     - <a id="arrowPrev_banner1" class="arrowNew prev" tabindex="0" aria-label="Banner Arrow Previous">
+     - <a id="arrowNext_banner1" class="arrowNew next" tabindex="0" aria-label="Banner Arrow Next">
+     - <ul id="ui-id-1" class="ui-menu ui-widget ui-widget-content ui-autocomplete ui-front" tabindex="0">
+
+Suggestions (0)
+────────────────────────────
+No suggestions found.
